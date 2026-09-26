@@ -1,0 +1,272 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "2d203b85992e08c71861ba9ed697e769",
+    "entities": [
+      {
+        "tableName": "breaker",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `building` INTEGER NOT NULL, `floor` TEXT NOT NULL, `panel_number` TEXT NOT NULL, `breaker_name` TEXT NOT NULL, `current_period_id` INTEGER, FOREIGN KEY(`current_period_id`) REFERENCES `replacement_period`(`id`) ON UPDATE NO ACTION ON DELETE RESTRICT )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "building",
+            "columnName": "building",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "floor",
+            "columnName": "floor",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "panelNumber",
+            "columnName": "panel_number",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "breakerName",
+            "columnName": "breaker_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "currentPeriodId",
+            "columnName": "current_period_id",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_breaker_building_floor_panel_number_breaker_name",
+            "unique": true,
+            "columnNames": [
+              "building",
+              "floor",
+              "panel_number",
+              "breaker_name"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_breaker_building_floor_panel_number_breaker_name` ON `${TABLE_NAME}` (`building`, `floor`, `panel_number`, `breaker_name`)"
+          },
+          {
+            "name": "index_breaker_current_period_id",
+            "unique": false,
+            "columnNames": [
+              "current_period_id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_breaker_current_period_id` ON `${TABLE_NAME}` (`current_period_id`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "replacement_period",
+            "onDelete": "RESTRICT",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "current_period_id"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "replacement_period",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `breaker_id` INTEGER NOT NULL, `sequence` INTEGER NOT NULL, `replacement_day` INTEGER, `creation_token` TEXT NOT NULL, FOREIGN KEY(`breaker_id`) REFERENCES `breaker`(`id`) ON UPDATE NO ACTION ON DELETE RESTRICT )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "breakerId",
+            "columnName": "breaker_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sequence",
+            "columnName": "sequence",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "replacementDay",
+            "columnName": "replacement_day",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "creationToken",
+            "columnName": "creation_token",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_replacement_period_breaker_id_sequence",
+            "unique": true,
+            "columnNames": [
+              "breaker_id",
+              "sequence"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_replacement_period_breaker_id_sequence` ON `${TABLE_NAME}` (`breaker_id`, `sequence`)"
+          },
+          {
+            "name": "index_replacement_period_creation_token",
+            "unique": true,
+            "columnNames": [
+              "creation_token"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_replacement_period_creation_token` ON `${TABLE_NAME}` (`creation_token`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "breaker",
+            "onDelete": "RESTRICT",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "breaker_id"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "trip_event",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `period_id` INTEGER NOT NULL, `trip_day` INTEGER NOT NULL, `location` TEXT NOT NULL, `note` TEXT NOT NULL, `created_at` INTEGER NOT NULL, `creation_token` TEXT NOT NULL, FOREIGN KEY(`period_id`) REFERENCES `replacement_period`(`id`) ON UPDATE NO ACTION ON DELETE RESTRICT )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "periodId",
+            "columnName": "period_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tripDay",
+            "columnName": "trip_day",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location",
+            "columnName": "location",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "note",
+            "columnName": "note",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "created_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "creationToken",
+            "columnName": "creation_token",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_trip_event_period_id_trip_day_created_at_id",
+            "unique": false,
+            "columnNames": [
+              "period_id",
+              "trip_day",
+              "created_at",
+              "id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_trip_event_period_id_trip_day_created_at_id` ON `${TABLE_NAME}` (`period_id`, `trip_day`, `created_at`, `id`)"
+          },
+          {
+            "name": "index_trip_event_trip_day_created_at_id",
+            "unique": false,
+            "columnNames": [
+              "trip_day",
+              "created_at",
+              "id"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_trip_event_trip_day_created_at_id` ON `${TABLE_NAME}` (`trip_day`, `created_at`, `id`)"
+          },
+          {
+            "name": "index_trip_event_creation_token",
+            "unique": true,
+            "columnNames": [
+              "creation_token"
+            ],
+            "orders": [],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_trip_event_creation_token` ON `${TABLE_NAME}` (`creation_token`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "replacement_period",
+            "onDelete": "RESTRICT",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "period_id"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '2d203b85992e08c71861ba9ed697e769')"
+    ]
+  }
+}
