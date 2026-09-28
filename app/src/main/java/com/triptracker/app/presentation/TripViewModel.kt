@@ -182,7 +182,7 @@ class TripViewModel(private val repository: TripRepository, private val clock: C
         val form = snapshot.form
         val errors = linkedMapOf<FormField, String>()
         if (form.building !in InputRules.buildings) errors[FormField.BUILDING] = "관을 선택하세요."
-        if (form.floor !in InputRules.floors) errors[FormField.FLOOR] = "층을 선택하세요."
+        if (form.floor !in InputRules.floorsFor(form.building)) errors[FormField.FLOOR] = "층을 선택하세요."
         if (!InputRules.isRequiredTextValid(form.panelNumber)) errors[FormField.PANEL] = "분전함번호를 입력하세요."
         if (!InputRules.isRequiredTextValid(form.breakerName)) errors[FormField.BREAKER] = "차단기명을 입력하세요."
         if (!InputRules.isRequiredTextValid(form.location)) errors[FormField.LOCATION] = "장소를 입력하세요."

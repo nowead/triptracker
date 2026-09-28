@@ -6,7 +6,10 @@ import java.util.Locale
 
 object InputRules {
     val buildings: List<Int> = (1..4).toList()
-    val floors: List<String> = (5 downTo 1).map { "B$it" } + (1..11).map(Int::toString) + "PH"
+    val floors: List<String> = (5 downTo 1).map { "B$it" } + (1..13).map(Int::toString) + "PH"
+
+    fun floorsFor(building: Int?): List<String> =
+        if (building == null || building == 1) floors else floors.filterNot { it == "12" || it == "13" }
 
     fun normalizeRequiredText(value: String): String = value.trim().uppercase(Locale.ROOT)
 

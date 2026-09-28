@@ -2,7 +2,7 @@
 
 개발 대상은 Android 우선이며 iOS는 후속 확장 계획이다. 단일 기기 저장·조회를 기준으로 한 기술 스택 비교와 구현 순서는 [앱 개발 계획안](app-plan.md)을 참고한다.
 
-[DB 상세 설계](data-model.md)를 바탕으로 최초/기존 트립 등록·검색·상세·횟수 조회와 트립 수정·단일/복수 삭제를 구현했다. Compose 화면은 ViewModel의 불변 UI 상태와 StateFlow를 관찰하며, 애플리케이션 단위 Room DB를 사용한다. 교체 구간 관리는 [구현 작업 목록](implementation-plan.md)의 후속 작업이다.
+[DB 상세 설계](data-model.md)의 Room v3를 바탕으로 분전함·차단기 마스터, 트립이력, 건수조회와 구간 상세 팝업, 차단기 위치조회를 구현했다. Compose의 ManagementScreen은 ManagementViewModel의 불변 상태와 StateFlow를 관찰한다. 교체·설치일 정정·빈 구간 삭제, 반복 입력 목록, 마스터 수정·삭제 제한을 포함한다. 기존 화면 테스트는 회귀 검증으로 유지한다.
 
 ## 현재 구성
 
@@ -15,8 +15,8 @@
 | Bash | Linux/macOS 및 향후 CI 검증 진입점 | scripts/build_and_test.sh |
 | Git / EditorConfig | 변경 검토, 인코딩·줄바꿈 통일 | 설정 완료 |
 | Android SDK | 컴파일·패키징·기기 연결 | .tools/android-sdk에 API 36, Build-Tools 36.0.0, ADB 설치 |
-| Android Studio / Emulator | 미리보기·기기 테스트 | 별도 설치 및 기기 연결 필요 |
-| JDK | Gradle 실행 | .tools/jdk에 Temurin 17 설치, 시스템 Java 11 설정 유지 |
+| Android Emulator | Mac 화면 미리보기 | Apple Silicon용 Android 36 Google APIs 이미지와 Pixel 6 가상 기기, scripts/run_emulator.sh |
+| JDK | Gradle 실행 | macOS arm64용 Temurin 17.0.20.1을 .tools/jdk에 준비. 시스템 Java 설정은 변경하지 않음 |
 | Gradle Wrapper | 프로젝트별 재현 가능한 빌드 | 공식 9.3.1 Wrapper 및 배포 SHA-256 고정 |
 
 ## 초기화 설정
@@ -34,6 +34,28 @@
 
 ## 검증 상태
 
+2026-09-28 **0.8.0**: `bash scripts/build_and_test.sh --device` 성공. 로컬 **83개**, Android 36 에뮬레이터 **4개** 통과, Lint 오류 0건. 분전함 선택으로 차단기 등록 화면의 관·층·부모 자동 입력, 상위 선택 변경 시 하위 해제, 맞지 않는 부모 저장 거절, 관·층별 검색 후보와 정확한 분전함 선택을 검증했다. 조회 후 필터 접기·적용 조건 요약·공통 소속 생략, 초안 변경 중 기존 결과 유지·상세 전체 소속 표시를 확인했다. 건수조회 필수 조건 안내는 필터 안에 표시해 작은 화면의 선택 버튼을 가리지 않는다. Room 스키마는 v3를 유지한다.
+
+PC 미리보기에도 0.8.0을 설치했다. 계측 테스트 전 보관한 DB를 복원한 뒤 분전함 164개·차단기 171개·설치 구간 171개·트립 0개·적재 기록 2개의 전체 값과 FK 무결성을 대조해 보존을 확인했다. 분전함에서 등록 폼 진입 및 `1관 · B2층 · A-LE-B2` 검색 후 공통 정보가 생략된 11개 결과를 직접 조작·확인했다. 캡처: `.tools/emulator/hierarchy-child-form.png`, `.tools/emulator/hierarchy-filtered-breakers.png`. 실제 휴대폰의 업데이트 설치는 별도 확인 대상이다.
+
+2026-09-27 **0.7.0**: `bash scripts/build_and_test.sh --device` 성공. 로컬 **78개**, Android 36 기기 **3개** 통과, Lint 오류 0건. 초기 SPARE 87개를 제외해 차단기 171개를 제공한다. 기존 원문 그대로의 미사용 SPARE 정리·수정/이력 보존과 재실행 방지, 점 세 개 메뉴로 수정·삭제·설치 구간 접근 및 삭제 취소를 검증했다. 마스터는 콤팩트 카드와 접을 수 있는 검색 조건을 제공한다. PC 에뮬레이터의 기존 DB에 업데이트 적용 후 SPARE 87개 제거, 남은 차단기 171개의 원래 값·분전함·트립 보존을 실제 DB 사본으로 대조했다. 화면 캡처: `.tools/emulator/compact-masters.png`.
+
+2026-09-27 **0.6.0**: `bash scripts/build_and_test.sh --device` 성공. 로컬 테스트 **76개**, Android 36 에뮬레이터 테스트 **3개** 통과, Lint 오류 0건. 초기 적재 테스트는 MasterSeed 미구현으로 컴파일 실패를 확인한 뒤 구현·통과했다. `initial_masters.json`에 두 마스터만 동봉하며 [적재 규칙](excel-import-review.md)에 따라 한 번 적용한다. Room v3 마이그레이션과 기존 데이터 보존, 사용자 수정·삭제 유지, 실패 시 롤백을 검증했다. PC 미리보기 앱도 0.6.0으로 업데이트했으며 실제 DB에서 분전함 164개·차단기 258개·설치 구간 258개·트립 0개, 적용 완료 기록과 FK 무결성을 확인했다. 화면 캡처는 `.tools/emulator/initial-masters.png`다.
+
+2026-09-27 엑셀 변환 준비 후 검증: `bash scripts/build_and_test.sh --device` 성공. 로컬 **71개**, Android 36 계측 **2개** 통과, Lint 오류 0건. 1관 12·13층 허용과 관별 범위 제한, PH까지의 마스터·집계 정렬을 추가 검증했다. 새 `floorsFor` API 미구현으로 테스트 컴파일 실패를 확인한 뒤 구현했다. 이 단계는 변환 준비 기록이며 이후 0.6.0에서 두 마스터만 적재하도록 범위를 확정했다.
+
+2026-09-27, 0.5.0 검증: `bash scripts/build_and_test.sh` 성공. 로컬 테스트 **69개 통과**, Lint **오류 0건**(고정 의존성 버전 알림 16건), Debug APK 생성. 최초 테스트 실행은 JDK 부재로 실행하지 못했으며 도구 준비 후 다시 검증했다. 추가한 미상 설치일의 알려진 날짜 경계 테스트는 실패 확인 후 수정·통과했다.
+
+| 신규 검증 | 결과 |
+| --- | --- |
+| MasterRepositoryTest | 7개 통과: 0건 마스터, 삭제 제한, 설치 구간·이력 보존, 마스터 수정, 메타데이터 검증, 트립사유 필수, 미상 날짜 경계 |
+| MasterMigrationTest | 1개 통과: v1→v2 Room 스키마 검증, ID/구간/횟수/특기사항 보존, 새 필드 미입력 및 FK 확인 |
+| ManagementScreenTest | 5개 통과: 큰 글자 1.3배·360dp에서 입력/오류/스크롤/메뉴 접근, 필수 조회 조건과 구간별 상세 팝업, 마스터→트립 생성, 반복 값 목록 선택, 한 건 수정 및 삭제 확인·취소 |
+| 0.5.0 기기 검증 | 디자인 개선 후 `bash scripts/build_and_test.sh --device` 성공. Android 36 ARM64 에뮬레이터에서 AppLaunchTest·TripDatabaseDeviceTest 2개 통과. 실제 휴대폰 검증은 별도 |
+| Mac 에뮬레이터 화면 확인 | Android Emulator 37.1.11 ARM64 / Android 36에서 0.5.0 설치·실행 성공. 분전함 마스터 첫 화면과 다섯 메뉴를 화면 캡처로 확인. 큰 글자 로컬 캡처는 app/build/reports/ui/management-large-text.png |
+
+아래는 기존 0.4.0 검증 기록이다. 신규 13개와 기존 56개를 함께 실행했다.
+
 | 검증 | 결과 |
 | --- | --- |
 | doctor.ps1 | JDK·SDK·ADB·Wrapper 확인 통과 |
@@ -47,7 +69,7 @@
 | 실제 기기 수동 확인 | 2026-09-15 사용자 확인: Debug APK 설치·실행 성공, 시작 화면에 ‘트립트래커’ 표시 |
 | 자동 계측 테스트 | AppLaunchTest·TripDatabaseDeviceTest 컴파일·테스트 APK 생성 완료. `--device` 실행은 연결 기기 없음으로 실패했으며 계측 테스트 미실행 |
 
-Debug APK: `app/build/outputs/apk/debug/app-debug.apk` (0.4.0, versionCode 4). 분전함 현황·차단기별 펼치기·선택 모드와 미니멀 디자인을 적용했다. 0.2.0은 사용자 확인을 받았으며 새 기능의 기기 검증은 별도다. 기존 앱 위에 업데이트 설치할 수 있고 Room 스키마는 v1을 유지한다.
+현재 Debug APK: `app/build/outputs/apk/debug/app-debug.apk` (0.8.0, versionCode 8). Room 스키마는 v3이며 앱 DB 구성에 MIGRATION_1_2·MIGRATION_2_3와 초기 마스터 적재 콜백을 등록했다. 기존 데이터의 보존은 로컬 마이그레이션 테스트로 확인했으며 실제 기기의 업데이트 설치는 별도 검증 대상이다.
 
 Robolectric의 Android 런타임은 Gradle `prepareRobolectricSdk` 작업이 `.tools/robolectric-runtime`에 준비한다. 테스트 실행 중의 자체 다운로드를 끄고 버전을 고정하여 런타임 다운로드 오류를 방지한다. 테스트 사용자 폴더와 임시 파일도 `.tools/test-user-home`, `.tools/test-temp`로 분리한다. 최초 준비에는 네트워크가 필요하다. [Robolectric 공식 설정 안내](https://robolectric.org/getting-started/)
 
@@ -77,6 +99,33 @@ Robolectric의 Android 런타임은 Gradle `prepareRobolectricSdk` 작업이 `.t
 5. 아래 진단과 검증 명령을 실행한다. 스크립트는 설치나 라이선스 수락을 자동으로 처리하지 않는다.
 
 ## 실행 명령
+
+### Mac에서 앱 화면 열기
+
+Apple Silicon Mac에서는 다음 명령으로 최신 Debug 앱을 빌드하고 별도 Android 에뮬레이터 창에서 실행한다. Android Studio를 열 필요는 없다.
+
+```bash
+bash scripts/run_emulator.sh
+```
+
+전용 가상 기기 이름은 `TripTracker_Preview`, ADB 식별자는 `emulator-5556`이다. 화면에서 마우스로 조작하며 분전함 → 차단기 → 트립 순서로 등록한다. 입력 데이터는 `.tools/avd`에 보관하므로 창을 닫았다가 같은 명령으로 다시 열어도 유지한다. 스크립트는 기존 가상 기기를 초기화하지 않는다.
+
+가상 휴대폰 창을 닫으면 실행 스크립트도 종료된다. 이미 같은 가상 기기가 열려 있으면 재사용하여 앱을 업데이트·실행한다. `bash -n scripts/run_emulator.sh`, 실제 APK 빌드·설치·실행으로 런처 동작을 확인했다.
+
+새 Mac에서 최초 준비할 때는 로컬 JDK·SDK 구성 후 에뮬레이터와 시스템 이미지를 설치한다. SDK 명령줄 도구는 `.tools/android-sdk/cmdline-tools/latest`에 둔다.
+
+```bash
+ANDROID_USER_HOME="$PWD/.tools/android-user-home" \
+  .tools/android-sdk/cmdline-tools/latest/bin/android --sdk="$PWD/.tools/android-sdk" \
+  sdk --platform=mac_arm64 install emulator
+JAVA_HOME="$PWD/.tools/jdk" ANDROID_USER_HOME="$PWD/.tools/android-user-home" \
+  .tools/android-sdk/cmdline-tools/latest/bin/sdkmanager \
+  --sdk_root="$PWD/.tools/android-sdk" 'system-images;android-36;google_apis;arm64-v8a'
+```
+
+에뮬레이터는 `mac_arm64` 플랫폼을 명시한다. 자동 선택이 Intel 바이너리를 설치하면 ARM64 이미지가 부팅되지 않는다. 부팅 실패 로그는 `.tools/emulator/preview.log`에서 확인한다. 이 스크립트는 현재 Apple Silicon Mac용이다.
+
+### 빌드와 테스트
 
 ```powershell
 powershell -NoProfile -File .\scripts\doctor.ps1

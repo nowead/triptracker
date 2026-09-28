@@ -3,12 +3,14 @@ package com.triptracker.app.data.local
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
+import androidx.room.Update
 import kotlinx.coroutines.flow.Flow
 
 data class DetailRow(
     val id: Long, val periodId: Long, val building: Int, val floor: String,
     val panelNumber: String, val breakerName: String, val tripDay: Long,
     val replacementDay: Long?, val location: String, val note: String, val createdAt: Long,
+    val reason: String,
 )
 data class CountRow(
     val periodId: Long, val building: Int, val floor: String, val panelNumber: String, val breakerName: String,
@@ -17,13 +19,39 @@ data class CountRow(
 
 @Dao
 interface TripDao {
+    @Insert suspend fun insertPanel(panel: PanelEntity): Long
+    @Update suspend fun updatePanel(panel: PanelEntity): Int
+    @Update suspend fun updateBreaker(breaker: BreakerEntity): Int
+    @Query("SELECT * FROM panel ORDER BY building, CASE WHEN floor = 'PH' THEN 14 WHEN substr(floor, 1, 1) = 'B' THEN -CAST(substr(floor, 2) AS INTEGER) ELSE CAST(floor AS INTEGER) END, number")
+    fun observePanels(): Flow<List<PanelEntity>>
+    @Query("SELECT * FROM breaker ORDER BY building, floor, panel_number, breaker_name")
+    fun observeBreakers(): Flow<List<BreakerEntity>>
+    @Query("SELECT * FROM replacement_period")
+    fun observePeriods(): Flow<List<PeriodEntity>>
+    @Query("SELECT * FROM panel WHERE id = :id")
+    suspend fun getPanel(id: Long): PanelEntity?
+    @Query("SELECT * FROM panel WHERE building = :building AND floor = :floor AND number = :number")
+    suspend fun findPanel(building: Int, floor: String, number: String): PanelEntity?
+    @Query("SELECT COUNT(*) FROM breaker WHERE panel_id = :panel")
+    suspend fun panelChildren(panel: Long): Int
+    @Query("DELETE FROM panel WHERE id = :id") suspend fun deletePanel(id: Long): Int
+    @Query("UPDATE breaker SET building = :building, floor = :floor, panel_number = :number WHERE panel_id = :panel")
+    suspend fun syncPanelKey(panel: Long, building: Int, floor: String, number: String)
+    @Query("SELECT COUNT(*) FROM trip_event t JOIN replacement_period p ON p.id = t.period_id WHERE p.breaker_id = :breaker")
+    suspend fun breakerTrips(breaker: Long): Int
+    @Query("UPDATE breaker SET current_period_id = NULL WHERE id = :id") suspend fun clearCurrent(id: Long)
+    @Query("DELETE FROM replacement_period WHERE breaker_id = :id") suspend fun deleteBreakerPeriods(id: Long)
+    @Query("DELETE FROM breaker WHERE id = :id") suspend fun deleteBreaker(id: Long): Int
+    @Query("SELECT * FROM trip_event WHERE period_id = :period") suspend fun periodTrips(period: Long): List<TripEntity>
+    @Query("UPDATE replacement_period SET replacement_day = :day WHERE id = :id") suspend fun correctInstallation(id: Long, day: Long?)
+    @Query("DELETE FROM replacement_period WHERE id = :id") suspend fun deleteInstallation(id: Long)
     @Insert suspend fun insertBreaker(breaker: BreakerEntity): Long
     @Insert suspend fun insertPeriod(period: PeriodEntity): Long
     @Insert suspend fun insertTrip(trip: TripEntity): Long
     @Query("SELECT * FROM trip_event WHERE id = :id")
     suspend fun getTrip(id: Long): TripEntity?
-    @Query("UPDATE trip_event SET period_id = :periodId, trip_day = :day, location = :location, note = :note WHERE id = :id")
-    suspend fun updateTrip(id: Long, periodId: Long, day: Long, location: String, note: String): Int
+    @Query("UPDATE trip_event SET period_id = :periodId, trip_day = :day, location = :location, note = :note, reason = :reason WHERE id = :id")
+    suspend fun updateTrip(id: Long, periodId: Long, day: Long, location: String, note: String, reason: String = ""): Int
     @Query("DELETE FROM trip_event WHERE id = :id")
     suspend fun deleteTrip(id: Long): Int
     @Query("SELECT * FROM trip_event WHERE creation_token = :token")
@@ -44,7 +72,7 @@ interface TripDao {
     @Query("""
         SELECT t.id, p.id AS periodId, b.building, b.floor, b.panel_number AS panelNumber,
             b.breaker_name AS breakerName, t.trip_day AS tripDay, p.replacement_day AS replacementDay,
-            t.location, t.note, t.created_at AS createdAt
+            t.location, t.note, t.created_at AS createdAt, t.reason
         FROM trip_event t JOIN replacement_period p ON p.id = t.period_id JOIN breaker b ON b.id = p.breaker_id
         WHERE (:building IS NULL OR b.building = :building) AND (:floor IS NULL OR b.floor = :floor)
             AND instr(b.panel_number, :panel) > 0 AND instr(b.breaker_name, :name) > 0
@@ -66,7 +94,7 @@ interface TripDao {
                 OR (:scope = 'PREVIOUS' AND b.current_period_id != p.id))
         GROUP BY p.id
         ORDER BY tripCount DESC, b.building,
-            CASE WHEN b.floor = 'PH' THEN 12 WHEN substr(b.floor, 1, 1) = 'B'
+            CASE WHEN b.floor = 'PH' THEN 14 WHEN substr(b.floor, 1, 1) = 'B'
                 THEN -CAST(substr(b.floor, 2) AS INTEGER) ELSE CAST(b.floor AS INTEGER) END,
             b.panel_number, b.breaker_name, p.sequence DESC, p.id DESC
     """)

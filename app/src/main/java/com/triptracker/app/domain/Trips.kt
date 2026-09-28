@@ -11,6 +11,7 @@ data class TripRegistration(
     val breaker: BreakerKey, val tripDate: LocalDate, val location: String, val note: String = "",
     val periodId: Long? = null, val replacementDate: LocalDate? = null,
     val replacementUnknown: Boolean = false, val requestId: String,
+    val reason: String = "",
 )
 data class TripSearch(
     val building: Int? = null, val floor: String? = null,
@@ -21,6 +22,7 @@ data class TripDetail(
     val id: Long, val periodId: Long, val breaker: BreakerKey,
     val tripDate: LocalDate, val replacementDate: LocalDate?,
     val location: String, val note: String, val createdAt: Instant,
+    val reason: String = "",
 )
 data class TripCount(
     val periodId: Long, val breaker: BreakerKey, val replacementDate: LocalDate?,

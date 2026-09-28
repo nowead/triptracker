@@ -104,9 +104,9 @@ private fun RegistrationScreen(state: TripUiState, model: TripViewModel) {
             if (state.editingId != null) TextButton(onClick = model::cancelEdit, enabled = !state.saving) { Text("수정 취소") }
             else TextButton(onClick = { model.showPage(Page.HOME) }, enabled = !state.saving) { Text("현황으로") } }
         item { Choice("관", form.building?.let { "${it}관" }, InputRules.buildings, { "${it}관" }, !state.saving) { v ->
-            model.editForm { it.copy(building = v) }
+            model.editForm { it.copy(building = v, floor = it.floor?.takeIf { floor -> floor in InputRules.floorsFor(v) }) }
         }; FieldError(state.errors[FormField.BUILDING]) }
-        item { Choice("층", form.floor, InputRules.floors, { it }, !state.saving) { v ->
+        item { Choice("층", form.floor, InputRules.floorsFor(form.building), { it }, !state.saving) { v ->
             model.editForm { it.copy(floor = v) }
         }; FieldError(state.errors[FormField.FLOOR]) }
         item { Entry("분전함번호", form.panelNumber, state.errors[FormField.PANEL], !state.saving, uppercase = true) { v -> model.editForm { it.copy(panelNumber = v) } } }
@@ -231,7 +231,7 @@ private fun SearchFields(state: TripUiState, model: TripViewModel, counts: Boole
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Box(Modifier.weight(1f)) { Choice("관", search.building?.let { "${it}관" } ?: "전체", listOf<Int?>(null) + InputRules.buildings,
                 { it?.let { n -> "${n}관" } ?: "전체" }) { b -> model.editSearch { it.copy(building = b) } } }
-            Box(Modifier.weight(1f)) { Choice("층", search.floor ?: "전체", listOf<String?>(null) + InputRules.floors,
+            Box(Modifier.weight(1f)) { Choice("층", search.floor ?: "전체", listOf<String?>(null) + InputRules.floorsFor(search.building),
                 { it ?: "전체" }) { f -> model.editSearch { it.copy(floor = f) } } }
         }
         Entry("분전함번호 검색", search.panelNumber) { v -> model.editSearch { it.copy(panelNumber = v) } }
@@ -283,12 +283,18 @@ private fun Entry(label: String, value: String, error: String? = null, enabled: 
 private fun FieldError(error: String?) { if (error != null) Text(error, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall) }
 
 @Composable
-private fun <T> Choice(label: String, selected: String?, options: List<T>, optionLabel: (T) -> String,
+internal fun <T> Choice(label: String, selected: String?, options: List<T>, optionLabel: (T) -> String,
     enabled: Boolean = true, onSelect: (T) -> Unit) {
     var open by remember { mutableStateOf(false) }
     OutlinedButton(onClick = { open = true }, enabled = enabled, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
-        shape = MaterialTheme.shapes.medium, colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface)) {
-        Text("$label: ${selected ?: "선택"}", modifier = Modifier.fillMaxWidth())
+        shape = MaterialTheme.shapes.small,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline),
+        contentPadding = PaddingValues(horizontal = 14.dp, vertical = 14.dp),
+        colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface,
+            containerColor = MaterialTheme.colorScheme.surfaceContainerLow)) {
+        Text("$label: ${selected ?: "선택"}", modifier = Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+        Spacer(Modifier.width(6.dp))
+        MarkIcon(Mark.DOWN, Modifier.size(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
     if (open) AlertDialog(onDismissRequest = { open = false }, title = { Text(label) }, confirmButton = {},
         dismissButton = { TextButton(onClick = { open = false }) { Text("취소") } },
@@ -300,11 +306,16 @@ private fun <T> Choice(label: String, selected: String?, options: List<T>, optio
 }
 
 @Composable
-private fun DateField(label: String, value: LocalDate?, enabled: Boolean = true, emptyLabel: String = "날짜 선택", onSelect: (LocalDate) -> Unit) {
+internal fun DateField(label: String, value: LocalDate?, enabled: Boolean = true, emptyLabel: String = "날짜 선택", onSelect: (LocalDate) -> Unit) {
     var open by remember { mutableStateOf(false) }
     OutlinedButton(onClick = { open = true }, enabled = enabled, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
-        shape = MaterialTheme.shapes.medium, colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface)) {
-        Text("$label: ${value?.toString() ?: emptyLabel}", modifier = Modifier.fillMaxWidth())
+        shape = MaterialTheme.shapes.small,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline),
+        contentPadding = PaddingValues(horizontal = 14.dp, vertical = 14.dp),
+        colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface,
+            containerColor = MaterialTheme.colorScheme.surfaceContainerLow)) {
+        Text("$label: ${value?.toString() ?: emptyLabel}", modifier = Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+        MarkIcon(Mark.DOWN, Modifier.size(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
     if (open) {
         val picker = rememberDatePickerState(initialSelectedDateMillis = value?.atStartOfDay(ZoneOffset.UTC)?.toInstant()?.toEpochMilli())
@@ -317,6 +328,5 @@ private fun DateField(label: String, value: LocalDate?, enabled: Boolean = true,
     }
 }
 
-private fun BreakerKey.label() = "${building}관 ${floor}층 · $panelNumber / $breakerName"
 private fun ReplacementPeriod.label() = "${if (isCurrent) "현재" else "이전"} · ${replacementDate ?: "교체일 미상"} · 구간 #$id"
 private fun PeriodScope.label() = when (this) { PeriodScope.CURRENT -> "현재"; PeriodScope.PREVIOUS -> "이전"; PeriodScope.ALL -> "전체" }

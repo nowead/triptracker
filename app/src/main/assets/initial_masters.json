@@ -1,0 +1,8260 @@
+{
+  "formatVersion": 1,
+  "sourceFile": "차단기 트립 이력.xlsx",
+  "sourceSha256": "04b7bd525bde8f764498693b2e786fd0cde412ba5f14b649c0f0d6fb848988a0",
+  "datasetId": "excel-masters-v1",
+  "panels": [
+    {
+      "sourceRow": 3,
+      "building": 1,
+      "floor": "11",
+      "number": "A-LP-11",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        3
+      ]
+    },
+    {
+      "sourceRow": 4,
+      "building": 1,
+      "floor": "11",
+      "number": "A-LP-11A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        4
+      ]
+    },
+    {
+      "sourceRow": 5,
+      "building": 1,
+      "floor": "11",
+      "number": "A-LP-11B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        5
+      ]
+    },
+    {
+      "sourceRow": 6,
+      "building": 2,
+      "floor": "11",
+      "number": "B-LP-11",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        6
+      ]
+    },
+    {
+      "sourceRow": 7,
+      "building": 2,
+      "floor": "11",
+      "number": "B-LP-11A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        7
+      ]
+    },
+    {
+      "sourceRow": 8,
+      "building": 2,
+      "floor": "11",
+      "number": "B-LP-11B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        8
+      ]
+    },
+    {
+      "sourceRow": 9,
+      "building": 1,
+      "floor": "10",
+      "number": "A-LP-10",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        9
+      ]
+    },
+    {
+      "sourceRow": 10,
+      "building": 1,
+      "floor": "10",
+      "number": "A-LP-10A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        10
+      ]
+    },
+    {
+      "sourceRow": 11,
+      "building": 1,
+      "floor": "10",
+      "number": "A-LP-10B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        11
+      ]
+    },
+    {
+      "sourceRow": 12,
+      "building": 2,
+      "floor": "10",
+      "number": "B-LP-10",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        12
+      ]
+    },
+    {
+      "sourceRow": 13,
+      "building": 2,
+      "floor": "10",
+      "number": "B-LP-10A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        13
+      ]
+    },
+    {
+      "sourceRow": 14,
+      "building": 2,
+      "floor": "10",
+      "number": "B-LP-10B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        14
+      ]
+    },
+    {
+      "sourceRow": 15,
+      "building": 3,
+      "floor": "10",
+      "number": "C-LP-10",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        15
+      ]
+    },
+    {
+      "sourceRow": 16,
+      "building": 3,
+      "floor": "10",
+      "number": "C-LP-10A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        16
+      ]
+    },
+    {
+      "sourceRow": 17,
+      "building": 3,
+      "floor": "10",
+      "number": "C-LP-10B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        17
+      ]
+    },
+    {
+      "sourceRow": 18,
+      "building": 4,
+      "floor": "10",
+      "number": "D-LP-10",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        18
+      ]
+    },
+    {
+      "sourceRow": 19,
+      "building": 4,
+      "floor": "10",
+      "number": "D-LP-10A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        19
+      ]
+    },
+    {
+      "sourceRow": 20,
+      "building": 4,
+      "floor": "10",
+      "number": "D-LP-10B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        20
+      ]
+    },
+    {
+      "sourceRow": 21,
+      "building": 1,
+      "floor": "9",
+      "number": "A-LP-09",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        21
+      ]
+    },
+    {
+      "sourceRow": 22,
+      "building": 1,
+      "floor": "9",
+      "number": "A-LP-09A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        22
+      ]
+    },
+    {
+      "sourceRow": 23,
+      "building": 1,
+      "floor": "9",
+      "number": "A-LP-09B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        23
+      ]
+    },
+    {
+      "sourceRow": 24,
+      "building": 2,
+      "floor": "9",
+      "number": "B-LP-09",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        24
+      ]
+    },
+    {
+      "sourceRow": 25,
+      "building": 2,
+      "floor": "9",
+      "number": "B-LP-09A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        25
+      ]
+    },
+    {
+      "sourceRow": 26,
+      "building": 2,
+      "floor": "9",
+      "number": "B-LP-09B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        26
+      ]
+    },
+    {
+      "sourceRow": 27,
+      "building": 3,
+      "floor": "9",
+      "number": "C-LP-09",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        27
+      ]
+    },
+    {
+      "sourceRow": 28,
+      "building": 3,
+      "floor": "9",
+      "number": "C-LP-09A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        28
+      ]
+    },
+    {
+      "sourceRow": 29,
+      "building": 3,
+      "floor": "9",
+      "number": "C-LP-09B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        29
+      ]
+    },
+    {
+      "sourceRow": 30,
+      "building": 4,
+      "floor": "9",
+      "number": "D-LP-09",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        30
+      ]
+    },
+    {
+      "sourceRow": 31,
+      "building": 4,
+      "floor": "9",
+      "number": "D-LP-09A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        31
+      ]
+    },
+    {
+      "sourceRow": 32,
+      "building": 4,
+      "floor": "9",
+      "number": "D-LP-09B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        32
+      ]
+    },
+    {
+      "sourceRow": 33,
+      "building": 1,
+      "floor": "8",
+      "number": "A-LP-08",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        33
+      ]
+    },
+    {
+      "sourceRow": 34,
+      "building": 1,
+      "floor": "8",
+      "number": "A-LP-08A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        34
+      ]
+    },
+    {
+      "sourceRow": 35,
+      "building": 1,
+      "floor": "8",
+      "number": "A-LP-08B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        35
+      ]
+    },
+    {
+      "sourceRow": 36,
+      "building": 2,
+      "floor": "8",
+      "number": "B-LP-08",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        36
+      ]
+    },
+    {
+      "sourceRow": 37,
+      "building": 2,
+      "floor": "8",
+      "number": "B-LP-08A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        37
+      ]
+    },
+    {
+      "sourceRow": 38,
+      "building": 2,
+      "floor": "8",
+      "number": "B-LP-08B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        38
+      ]
+    },
+    {
+      "sourceRow": 39,
+      "building": 3,
+      "floor": "8",
+      "number": "C-LP-08",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        39
+      ]
+    },
+    {
+      "sourceRow": 40,
+      "building": 3,
+      "floor": "8",
+      "number": "C-LP-08A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        40
+      ]
+    },
+    {
+      "sourceRow": 41,
+      "building": 3,
+      "floor": "8",
+      "number": "C-LP-08B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        41
+      ]
+    },
+    {
+      "sourceRow": 42,
+      "building": 4,
+      "floor": "8",
+      "number": "D-LP-08",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        42
+      ]
+    },
+    {
+      "sourceRow": 43,
+      "building": 4,
+      "floor": "8",
+      "number": "D-LP-08A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        43
+      ]
+    },
+    {
+      "sourceRow": 44,
+      "building": 4,
+      "floor": "8",
+      "number": "D-LP-08B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        44
+      ]
+    },
+    {
+      "sourceRow": 45,
+      "building": 1,
+      "floor": "7",
+      "number": "A-LP-07",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        45
+      ]
+    },
+    {
+      "sourceRow": 46,
+      "building": 1,
+      "floor": "7",
+      "number": "A-LP-07A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        46
+      ]
+    },
+    {
+      "sourceRow": 47,
+      "building": 1,
+      "floor": "7",
+      "number": "A-LP-07B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        47
+      ]
+    },
+    {
+      "sourceRow": 48,
+      "building": 2,
+      "floor": "7",
+      "number": "B-LP-07",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        48
+      ]
+    },
+    {
+      "sourceRow": 49,
+      "building": 2,
+      "floor": "7",
+      "number": "B-LP-07A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        49
+      ]
+    },
+    {
+      "sourceRow": 50,
+      "building": 2,
+      "floor": "7",
+      "number": "B-LP-07B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        50
+      ]
+    },
+    {
+      "sourceRow": 51,
+      "building": 3,
+      "floor": "7",
+      "number": "C-LP-07",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        51
+      ]
+    },
+    {
+      "sourceRow": 52,
+      "building": 3,
+      "floor": "7",
+      "number": "C-LP-07A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        52
+      ]
+    },
+    {
+      "sourceRow": 53,
+      "building": 3,
+      "floor": "7",
+      "number": "C-LP-07B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        53
+      ]
+    },
+    {
+      "sourceRow": 54,
+      "building": 4,
+      "floor": "7",
+      "number": "D-LP-07",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        54
+      ]
+    },
+    {
+      "sourceRow": 55,
+      "building": 4,
+      "floor": "7",
+      "number": "D-LP-07A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        55
+      ]
+    },
+    {
+      "sourceRow": 56,
+      "building": 4,
+      "floor": "7",
+      "number": "D-LP-07B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        56
+      ]
+    },
+    {
+      "sourceRow": 57,
+      "building": 1,
+      "floor": "6",
+      "number": "A-LP-06",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        57
+      ]
+    },
+    {
+      "sourceRow": 58,
+      "building": 1,
+      "floor": "6",
+      "number": "A-LE-06",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        58
+      ]
+    },
+    {
+      "sourceRow": 59,
+      "building": 1,
+      "floor": "6",
+      "number": "A-LP-06A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        59
+      ]
+    },
+    {
+      "sourceRow": 60,
+      "building": 1,
+      "floor": "6",
+      "number": "A-LP-06B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        60
+      ]
+    },
+    {
+      "sourceRow": 61,
+      "building": 2,
+      "floor": "6",
+      "number": "B-LP-06",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        61
+      ]
+    },
+    {
+      "sourceRow": 62,
+      "building": 2,
+      "floor": "6",
+      "number": "B-LE-06",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        62
+      ]
+    },
+    {
+      "sourceRow": 63,
+      "building": 2,
+      "floor": "6",
+      "number": "B-LP-06A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        63
+      ]
+    },
+    {
+      "sourceRow": 64,
+      "building": 2,
+      "floor": "6",
+      "number": "B-LP-06B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        64
+      ]
+    },
+    {
+      "sourceRow": 65,
+      "building": 3,
+      "floor": "6",
+      "number": "C-LP-06",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        65
+      ]
+    },
+    {
+      "sourceRow": 66,
+      "building": 3,
+      "floor": "6",
+      "number": "C-LE-06",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        66
+      ]
+    },
+    {
+      "sourceRow": 67,
+      "building": 3,
+      "floor": "6",
+      "number": "C-LP-06A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        67
+      ]
+    },
+    {
+      "sourceRow": 68,
+      "building": 3,
+      "floor": "6",
+      "number": "C-LP-06B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        68
+      ]
+    },
+    {
+      "sourceRow": 69,
+      "building": 4,
+      "floor": "6",
+      "number": "D-LP-06",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        69
+      ]
+    },
+    {
+      "sourceRow": 70,
+      "building": 4,
+      "floor": "6",
+      "number": "D-LE-06",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        70
+      ]
+    },
+    {
+      "sourceRow": 71,
+      "building": 4,
+      "floor": "6",
+      "number": "D-LP-06A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        71
+      ]
+    },
+    {
+      "sourceRow": 72,
+      "building": 4,
+      "floor": "6",
+      "number": "D-LP-06B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        72
+      ]
+    },
+    {
+      "sourceRow": 73,
+      "building": 1,
+      "floor": "5",
+      "number": "A-LP-05",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        73
+      ]
+    },
+    {
+      "sourceRow": 74,
+      "building": 1,
+      "floor": "5",
+      "number": "A-LP-05A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        74
+      ]
+    },
+    {
+      "sourceRow": 75,
+      "building": 1,
+      "floor": "5",
+      "number": "A-LP-05B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        75
+      ]
+    },
+    {
+      "sourceRow": 76,
+      "building": 2,
+      "floor": "5",
+      "number": "B-LP-05",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        76
+      ]
+    },
+    {
+      "sourceRow": 77,
+      "building": 2,
+      "floor": "5",
+      "number": "B-LP-05A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        77
+      ]
+    },
+    {
+      "sourceRow": 78,
+      "building": 2,
+      "floor": "5",
+      "number": "B-LP-05B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        78
+      ]
+    },
+    {
+      "sourceRow": 79,
+      "building": 3,
+      "floor": "5",
+      "number": "C-LP-05",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        79
+      ]
+    },
+    {
+      "sourceRow": 80,
+      "building": 3,
+      "floor": "5",
+      "number": "C-LP-05A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        80
+      ]
+    },
+    {
+      "sourceRow": 81,
+      "building": 3,
+      "floor": "5",
+      "number": "C-LP-05B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        81
+      ]
+    },
+    {
+      "sourceRow": 82,
+      "building": 4,
+      "floor": "5",
+      "number": "D-LP-05",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        82
+      ]
+    },
+    {
+      "sourceRow": 83,
+      "building": 4,
+      "floor": "5",
+      "number": "D-LP-05A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        83
+      ]
+    },
+    {
+      "sourceRow": 84,
+      "building": 4,
+      "floor": "5",
+      "number": "D-LP-05B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        84
+      ]
+    },
+    {
+      "sourceRow": 85,
+      "building": 1,
+      "floor": "4",
+      "number": "A-LP-04",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        85
+      ]
+    },
+    {
+      "sourceRow": 86,
+      "building": 1,
+      "floor": "4",
+      "number": "A-LP-04A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        86
+      ]
+    },
+    {
+      "sourceRow": 87,
+      "building": 1,
+      "floor": "4",
+      "number": "A-LP-04B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        87
+      ]
+    },
+    {
+      "sourceRow": 88,
+      "building": 2,
+      "floor": "4",
+      "number": "B-LP-04",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        88
+      ]
+    },
+    {
+      "sourceRow": 89,
+      "building": 2,
+      "floor": "4",
+      "number": "B-LP-04A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        89
+      ]
+    },
+    {
+      "sourceRow": 90,
+      "building": 2,
+      "floor": "4",
+      "number": "B-LP-04B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        90
+      ]
+    },
+    {
+      "sourceRow": 91,
+      "building": 3,
+      "floor": "4",
+      "number": "C-LP-04",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        91
+      ]
+    },
+    {
+      "sourceRow": 92,
+      "building": 3,
+      "floor": "4",
+      "number": "C-LP-04A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        92
+      ]
+    },
+    {
+      "sourceRow": 93,
+      "building": 3,
+      "floor": "4",
+      "number": "C-LP-04B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        93
+      ]
+    },
+    {
+      "sourceRow": 94,
+      "building": 4,
+      "floor": "4",
+      "number": "D-LP-04",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        94
+      ]
+    },
+    {
+      "sourceRow": 95,
+      "building": 4,
+      "floor": "4",
+      "number": "D-LP-04A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        95
+      ]
+    },
+    {
+      "sourceRow": 96,
+      "building": 4,
+      "floor": "4",
+      "number": "D-LP-04B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        96
+      ]
+    },
+    {
+      "sourceRow": 97,
+      "building": 1,
+      "floor": "3",
+      "number": "A-LP-03",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        97
+      ]
+    },
+    {
+      "sourceRow": 98,
+      "building": 1,
+      "floor": "3",
+      "number": "A-LP-03A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        98
+      ]
+    },
+    {
+      "sourceRow": 99,
+      "building": 1,
+      "floor": "3",
+      "number": "A-LP-03B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        99
+      ]
+    },
+    {
+      "sourceRow": 100,
+      "building": 2,
+      "floor": "3",
+      "number": "B-LP-03",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        100
+      ]
+    },
+    {
+      "sourceRow": 101,
+      "building": 2,
+      "floor": "3",
+      "number": "B-LP-03A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        101
+      ]
+    },
+    {
+      "sourceRow": 102,
+      "building": 2,
+      "floor": "3",
+      "number": "B-LP-03B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        102
+      ]
+    },
+    {
+      "sourceRow": 103,
+      "building": 3,
+      "floor": "3",
+      "number": "C-LP-03",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        103
+      ]
+    },
+    {
+      "sourceRow": 104,
+      "building": 3,
+      "floor": "3",
+      "number": "C-LP-03A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        104
+      ]
+    },
+    {
+      "sourceRow": 105,
+      "building": 3,
+      "floor": "3",
+      "number": "C-LP-03B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        105
+      ]
+    },
+    {
+      "sourceRow": 106,
+      "building": 4,
+      "floor": "3",
+      "number": "D-LP-03",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        106
+      ]
+    },
+    {
+      "sourceRow": 107,
+      "building": 4,
+      "floor": "3",
+      "number": "D-LP-03A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        107
+      ]
+    },
+    {
+      "sourceRow": 108,
+      "building": 4,
+      "floor": "3",
+      "number": "D-LP-03B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        108
+      ]
+    },
+    {
+      "sourceRow": 109,
+      "building": 1,
+      "floor": "2",
+      "number": "A-LP-02",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        109
+      ]
+    },
+    {
+      "sourceRow": 110,
+      "building": 1,
+      "floor": "2",
+      "number": "A-LP-02A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        110
+      ]
+    },
+    {
+      "sourceRow": 111,
+      "building": 1,
+      "floor": "2",
+      "number": "A-LP-02B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        111
+      ]
+    },
+    {
+      "sourceRow": 112,
+      "building": 2,
+      "floor": "2",
+      "number": "B-LP-02",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        112
+      ]
+    },
+    {
+      "sourceRow": 113,
+      "building": 2,
+      "floor": "2",
+      "number": "B-LP-02A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        113
+      ]
+    },
+    {
+      "sourceRow": 114,
+      "building": 2,
+      "floor": "2",
+      "number": "B-LP-02B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        114
+      ]
+    },
+    {
+      "sourceRow": 115,
+      "building": 3,
+      "floor": "2",
+      "number": "C-LP-02",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        115
+      ]
+    },
+    {
+      "sourceRow": 116,
+      "building": 3,
+      "floor": "2",
+      "number": "C-LP-02A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        116
+      ]
+    },
+    {
+      "sourceRow": 117,
+      "building": 3,
+      "floor": "2",
+      "number": "C-LP-02B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        117
+      ]
+    },
+    {
+      "sourceRow": 118,
+      "building": 4,
+      "floor": "2",
+      "number": "D-LP-02",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        118
+      ]
+    },
+    {
+      "sourceRow": 119,
+      "building": 4,
+      "floor": "2",
+      "number": "D-LP-02A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        119
+      ]
+    },
+    {
+      "sourceRow": 120,
+      "building": 4,
+      "floor": "2",
+      "number": "D-LP-02B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        120
+      ]
+    },
+    {
+      "sourceRow": 121,
+      "building": 1,
+      "floor": "1",
+      "number": "A-LP-01",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        121
+      ]
+    },
+    {
+      "sourceRow": 122,
+      "building": 1,
+      "floor": "1",
+      "number": "A-LP-01A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        122
+      ]
+    },
+    {
+      "sourceRow": 123,
+      "building": 1,
+      "floor": "1",
+      "number": "A-LP-01B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        123
+      ]
+    },
+    {
+      "sourceRow": 124,
+      "building": 1,
+      "floor": "1",
+      "number": "A-LP-01C",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        124
+      ]
+    },
+    {
+      "sourceRow": 125,
+      "building": 2,
+      "floor": "1",
+      "number": "B-LP-01",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        125
+      ]
+    },
+    {
+      "sourceRow": 126,
+      "building": 2,
+      "floor": "1",
+      "number": "B-LP-01A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        126
+      ]
+    },
+    {
+      "sourceRow": 127,
+      "building": 3,
+      "floor": "1",
+      "number": "C-LP-01",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        127
+      ]
+    },
+    {
+      "sourceRow": 128,
+      "building": 3,
+      "floor": "1",
+      "number": "C-LP-01A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        128
+      ]
+    },
+    {
+      "sourceRow": 129,
+      "building": 4,
+      "floor": "1",
+      "number": "D-LP-01",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        129
+      ]
+    },
+    {
+      "sourceRow": 130,
+      "building": 4,
+      "floor": "1",
+      "number": "D-LP-01A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        130
+      ]
+    },
+    {
+      "sourceRow": 131,
+      "building": 3,
+      "floor": "B1",
+      "number": "C-LP-B1",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        131
+      ]
+    },
+    {
+      "sourceRow": 132,
+      "building": 3,
+      "floor": "B1",
+      "number": "D-LP-B1",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        132
+      ]
+    },
+    {
+      "sourceRow": 133,
+      "building": 3,
+      "floor": "B1",
+      "number": "LP-B1-A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        133
+      ]
+    },
+    {
+      "sourceRow": 134,
+      "building": 3,
+      "floor": "B1",
+      "number": "LP-B1-B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        134
+      ]
+    },
+    {
+      "sourceRow": 135,
+      "building": 3,
+      "floor": "B1",
+      "number": "LE-B1-MDF",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        135
+      ]
+    },
+    {
+      "sourceRow": 136,
+      "building": 3,
+      "floor": "B1",
+      "number": "D-LE-B1",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        136
+      ]
+    },
+    {
+      "sourceRow": 137,
+      "building": 1,
+      "floor": "B2",
+      "number": "A-LE-B2",
+      "location": "1관 EPS",
+      "note": "FROM분전함: LE-PK-B4A",
+      "upstreamPanel": "LE-PK-B4A",
+      "sourceRows": [
+        137
+      ]
+    },
+    {
+      "sourceRow": 138,
+      "building": 1,
+      "floor": "B2",
+      "number": "A-LP-B2",
+      "location": "1관 EPS",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        138
+      ]
+    },
+    {
+      "sourceRow": 139,
+      "building": 2,
+      "floor": "B2",
+      "number": "B-LE-B2",
+      "location": "2관 EPS",
+      "note": "FROM분전함: LE-PK-B4A",
+      "upstreamPanel": "LE-PK-B4A",
+      "sourceRows": [
+        139
+      ]
+    },
+    {
+      "sourceRow": 140,
+      "building": 2,
+      "floor": "B2",
+      "number": "B-LP-B2",
+      "location": "2관 EPS",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        140
+      ]
+    },
+    {
+      "sourceRow": 141,
+      "building": 2,
+      "floor": "B2",
+      "number": "LP-B2-A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        141
+      ]
+    },
+    {
+      "sourceRow": 142,
+      "building": 2,
+      "floor": "B2",
+      "number": "LP-B2-B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        142
+      ]
+    },
+    {
+      "sourceRow": 143,
+      "building": 2,
+      "floor": "B2",
+      "number": "LP-B2-C",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        143
+      ]
+    },
+    {
+      "sourceRow": 144,
+      "building": 2,
+      "floor": "B2",
+      "number": "LP-B2-D",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        144
+      ]
+    },
+    {
+      "sourceRow": 145,
+      "building": 3,
+      "floor": "B2",
+      "number": "C-LE-B2",
+      "location": "3관 EPS",
+      "note": "FROM분전함: LE-PK-B4A",
+      "upstreamPanel": "LE-PK-B4A",
+      "sourceRows": [
+        145
+      ]
+    },
+    {
+      "sourceRow": 146,
+      "building": 3,
+      "floor": "B2",
+      "number": "C-LP-B2",
+      "location": "3관 EPS",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        146
+      ]
+    },
+    {
+      "sourceRow": 147,
+      "building": 4,
+      "floor": "B2",
+      "number": "D-LE-B2",
+      "location": "4관 EPS",
+      "note": "FROM분전함: LE-PK-B4A",
+      "upstreamPanel": "LE-PK-B4A",
+      "sourceRows": [
+        147,
+        153
+      ]
+    },
+    {
+      "sourceRow": 148,
+      "building": 4,
+      "floor": "B2",
+      "number": "D-LP-B2",
+      "location": "4관 EPS",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        148
+      ]
+    },
+    {
+      "sourceRow": 149,
+      "building": 3,
+      "floor": "B1",
+      "number": "LE-B2-FO",
+      "location": "방재실",
+      "note": "FROM분전함: D-LE-B1",
+      "upstreamPanel": "D-LE-B1",
+      "sourceRows": [
+        149
+      ]
+    },
+    {
+      "sourceRow": 150,
+      "building": 3,
+      "floor": "B2",
+      "number": "LP-B2-E",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        150
+      ]
+    },
+    {
+      "sourceRow": 151,
+      "building": 3,
+      "floor": "B2",
+      "number": "LP-B2-F",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        151
+      ]
+    },
+    {
+      "sourceRow": 152,
+      "building": 3,
+      "floor": "B2",
+      "number": "LP-B2-G",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        152
+      ]
+    },
+    {
+      "sourceRow": 154,
+      "building": 2,
+      "floor": "B3",
+      "number": "LP-PK-B3A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        154
+      ]
+    },
+    {
+      "sourceRow": 155,
+      "building": 2,
+      "floor": "B3",
+      "number": "LE-PK-B3A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        155
+      ]
+    },
+    {
+      "sourceRow": 156,
+      "building": 3,
+      "floor": "B3",
+      "number": "LP-PK-B3B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        156
+      ]
+    },
+    {
+      "sourceRow": 157,
+      "building": 3,
+      "floor": "B3",
+      "number": "LE-PK-B3B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        157
+      ]
+    },
+    {
+      "sourceRow": 158,
+      "building": 2,
+      "floor": "B4",
+      "number": "LP-PK-B4A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        158
+      ]
+    },
+    {
+      "sourceRow": 159,
+      "building": 2,
+      "floor": "B4",
+      "number": "LE-PK-B4A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        159
+      ]
+    },
+    {
+      "sourceRow": 160,
+      "building": 2,
+      "floor": "B4",
+      "number": "LP-ELEC-A",
+      "location": "지하5층 1,2관 전기실",
+      "note": "FROM분전함: LV-1B",
+      "upstreamPanel": "LV-1B",
+      "sourceRows": [
+        160
+      ]
+    },
+    {
+      "sourceRow": 161,
+      "building": 3,
+      "floor": "B4",
+      "number": "LP-PK-B4B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        161
+      ]
+    },
+    {
+      "sourceRow": 162,
+      "building": 3,
+      "floor": "B4",
+      "number": "LE-PK-B4B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        162
+      ]
+    },
+    {
+      "sourceRow": 163,
+      "building": 3,
+      "floor": "B4",
+      "number": "LP-ELEC-B",
+      "location": "지하5층 3,4관 전기실",
+      "note": "FROM분전함: LV-1B",
+      "upstreamPanel": "LV-1B",
+      "sourceRows": [
+        163
+      ]
+    },
+    {
+      "sourceRow": 164,
+      "building": 2,
+      "floor": "B5",
+      "number": "LP-PK-B5A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        164
+      ]
+    },
+    {
+      "sourceRow": 165,
+      "building": 2,
+      "floor": "B5",
+      "number": "LE-PK-B5A",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        165
+      ]
+    },
+    {
+      "sourceRow": 166,
+      "building": 3,
+      "floor": "B5",
+      "number": "LP-PK-B5B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        166
+      ]
+    },
+    {
+      "sourceRow": 167,
+      "building": 3,
+      "floor": "B5",
+      "number": "LE-PK-B5B",
+      "location": "",
+      "note": "",
+      "upstreamPanel": "",
+      "sourceRows": [
+        167
+      ]
+    }
+  ],
+  "breakers": [
+    {
+      "sourceRow": 65,
+      "panelNumber": "C-LP-06",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "350",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 66,
+      "panelNumber": "C-LP-06",
+      "number": "C-LP-6A",
+      "originalNumber": "C-LP-6A",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "125",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 67,
+      "panelNumber": "C-LP-06",
+      "number": "C-LP-6B",
+      "originalNumber": "C-LP-6B",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "125",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 70,
+      "panelNumber": "C-LP-06",
+      "number": "R1",
+      "originalNumber": "R1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 71,
+      "panelNumber": "C-LP-06",
+      "number": "R2",
+      "originalNumber": "R2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 72,
+      "panelNumber": "C-LP-06",
+      "number": "H1",
+      "originalNumber": "H1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 73,
+      "panelNumber": "C-LP-06",
+      "number": "H2",
+      "originalNumber": "H2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 74,
+      "panelNumber": "C-LP-06",
+      "number": "L1",
+      "originalNumber": "L1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 75,
+      "panelNumber": "C-LP-06",
+      "number": "L2",
+      "originalNumber": "L2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 76,
+      "panelNumber": "C-LP-06",
+      "number": "자동문",
+      "originalNumber": "자동문",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 77,
+      "panelNumber": "C-LP-06",
+      "number": "ADT",
+      "originalNumber": "ADT",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 83,
+      "panelNumber": "C-LP-06A",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "125",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 86,
+      "panelNumber": "C-LP-06A",
+      "number": "R1",
+      "originalNumber": "R1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 87,
+      "panelNumber": "C-LP-06A",
+      "number": "R2",
+      "originalNumber": "R2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 88,
+      "panelNumber": "C-LP-06A",
+      "number": "R3",
+      "originalNumber": "R3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 89,
+      "panelNumber": "C-LP-06A",
+      "number": "R4",
+      "originalNumber": "R4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 90,
+      "panelNumber": "C-LP-06A",
+      "number": "R5",
+      "originalNumber": "R5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 91,
+      "panelNumber": "C-LP-06A",
+      "number": "R6",
+      "originalNumber": "R6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 92,
+      "panelNumber": "C-LP-06A",
+      "number": "R7",
+      "originalNumber": "R7",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 93,
+      "panelNumber": "C-LP-06A",
+      "number": "R8",
+      "originalNumber": "R8",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 94,
+      "panelNumber": "C-LP-06A",
+      "number": "R9",
+      "originalNumber": "R9",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "?",
+      "note": ""
+    },
+    {
+      "sourceRow": 95,
+      "panelNumber": "C-LP-06A",
+      "number": "R10",
+      "originalNumber": "R10",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "?",
+      "note": ""
+    },
+    {
+      "sourceRow": 96,
+      "panelNumber": "C-LP-06A",
+      "number": "R11",
+      "originalNumber": "R11",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 97,
+      "panelNumber": "C-LP-06A",
+      "number": "R12",
+      "originalNumber": "R12",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 98,
+      "panelNumber": "C-LP-06A",
+      "number": "R13",
+      "originalNumber": "R13",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 99,
+      "panelNumber": "C-LP-06A",
+      "number": "R14",
+      "originalNumber": "R14",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 100,
+      "panelNumber": "C-LP-06A",
+      "number": "R15",
+      "originalNumber": "R15",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 101,
+      "panelNumber": "C-LP-06A",
+      "number": "R16",
+      "originalNumber": "R16",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 102,
+      "panelNumber": "C-LP-06A",
+      "number": "R17",
+      "originalNumber": "R17",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 103,
+      "panelNumber": "C-LP-06A",
+      "number": "R18",
+      "originalNumber": "R18",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 104,
+      "panelNumber": "C-LP-06A",
+      "number": "L1",
+      "originalNumber": "L1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 105,
+      "panelNumber": "C-LP-06A",
+      "number": "L2",
+      "originalNumber": "L2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 106,
+      "panelNumber": "C-LP-06A",
+      "number": "L3",
+      "originalNumber": "L3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 107,
+      "panelNumber": "C-LP-06A",
+      "number": "KT텔레캅",
+      "originalNumber": "KT텔레캅",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 108,
+      "panelNumber": "C-LP-06A",
+      "number": "SKT",
+      "originalNumber": "SKT",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 114,
+      "panelNumber": "C-LP-06B",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "125",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 117,
+      "panelNumber": "C-LP-06B",
+      "number": "R1",
+      "originalNumber": "R1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 118,
+      "panelNumber": "C-LP-06B",
+      "number": "R2",
+      "originalNumber": "R2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 119,
+      "panelNumber": "C-LP-06B",
+      "number": "R3",
+      "originalNumber": "R3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 120,
+      "panelNumber": "C-LP-06B",
+      "number": "R4",
+      "originalNumber": "R4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 121,
+      "panelNumber": "C-LP-06B",
+      "number": "R5",
+      "originalNumber": "R5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 122,
+      "panelNumber": "C-LP-06B",
+      "number": "R6",
+      "originalNumber": "R6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 123,
+      "panelNumber": "C-LP-06B",
+      "number": "R7",
+      "originalNumber": "R7",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 124,
+      "panelNumber": "C-LP-06B",
+      "number": "R8",
+      "originalNumber": "R8",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 125,
+      "panelNumber": "C-LP-06B",
+      "number": "R9",
+      "originalNumber": "R9",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 126,
+      "panelNumber": "C-LP-06B",
+      "number": "R10",
+      "originalNumber": "R10",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 127,
+      "panelNumber": "C-LP-06B",
+      "number": "R11",
+      "originalNumber": "R11",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 128,
+      "panelNumber": "C-LP-06B",
+      "number": "R12",
+      "originalNumber": "R12",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 129,
+      "panelNumber": "C-LP-06B",
+      "number": "R13",
+      "originalNumber": "R13",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 130,
+      "panelNumber": "C-LP-06B",
+      "number": "R14",
+      "originalNumber": "R14",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 131,
+      "panelNumber": "C-LP-06B",
+      "number": "R15",
+      "originalNumber": "R15",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 132,
+      "panelNumber": "C-LP-06B",
+      "number": "R16",
+      "originalNumber": "R16",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 133,
+      "panelNumber": "C-LP-06B",
+      "number": "R17",
+      "originalNumber": "R17",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 134,
+      "panelNumber": "C-LP-06B",
+      "number": "R18",
+      "originalNumber": "R18",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 135,
+      "panelNumber": "C-LP-06B",
+      "number": "L1",
+      "originalNumber": "L1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "위메이드시스템박스 전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 136,
+      "panelNumber": "C-LP-06B",
+      "number": "L2",
+      "originalNumber": "L2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "위메이드책상 전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 137,
+      "panelNumber": "C-LP-06B",
+      "number": "L3",
+      "originalNumber": "L3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "위메이드시스템박스 전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 138,
+      "panelNumber": "C-LP-06B",
+      "number": "L6",
+      "originalNumber": "L6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "위메이드책상 전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 139,
+      "panelNumber": "C-LP-06B",
+      "number": "L7",
+      "originalNumber": "L7",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "위메이드책상 전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 140,
+      "panelNumber": "C-LP-06B",
+      "number": "L8",
+      "originalNumber": "L8",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "위메이드책상 전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 141,
+      "panelNumber": "C-LP-06B",
+      "number": "조명제어",
+      "originalNumber": "조명제어",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 142,
+      "panelNumber": "C-LP-06B",
+      "number": "조명CNI전원",
+      "originalNumber": "조명CNI전원",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 214,
+      "panelNumber": "A-LE-B2",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 217,
+      "panelNumber": "A-LE-B2",
+      "number": "E1",
+      "originalNumber": "E1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상등",
+      "note": ""
+    },
+    {
+      "sourceRow": 218,
+      "panelNumber": "A-LE-B2",
+      "number": "E2",
+      "originalNumber": "E2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상등",
+      "note": ""
+    },
+    {
+      "sourceRow": 219,
+      "panelNumber": "A-LE-B2",
+      "number": "E3",
+      "originalNumber": "E3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 220,
+      "panelNumber": "A-LE-B2",
+      "number": "E4",
+      "originalNumber": "E4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 221,
+      "panelNumber": "A-LE-B2",
+      "number": "E5",
+      "originalNumber": "E5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 222,
+      "panelNumber": "A-LE-B2",
+      "number": "E6",
+      "originalNumber": "E6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 223,
+      "panelNumber": "A-LE-B2",
+      "number": "E7",
+      "originalNumber": "E7",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "회전문전원",
+      "note": ""
+    },
+    {
+      "sourceRow": 224,
+      "panelNumber": "A-LE-B2",
+      "number": "E8",
+      "originalNumber": "E8",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 225,
+      "panelNumber": "A-LE-B2",
+      "number": "E9",
+      "originalNumber": "E9",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "유도등 (주차 B3,B4,B5)",
+      "note": ""
+    },
+    {
+      "sourceRow": 226,
+      "panelNumber": "A-LE-B2",
+      "number": "E10",
+      "originalNumber": "E10",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "조명제어",
+      "note": ""
+    },
+    {
+      "sourceRow": 227,
+      "panelNumber": "A-LP-B2",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "350",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 228,
+      "panelNumber": "A-LP-B2",
+      "number": "LP-B2-A",
+      "originalNumber": "LP-B2-A",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "175",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 230,
+      "panelNumber": "A-LP-B2",
+      "number": "LP-B2-C",
+      "originalNumber": "LP-B2-C",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "100",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 232,
+      "panelNumber": "A-LP-B2",
+      "number": "LP-B2-C-1",
+      "originalNumber": "LP-B2-C-1",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "75",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 234,
+      "panelNumber": "A-LP-B2",
+      "number": "L1",
+      "originalNumber": "L1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 235,
+      "panelNumber": "A-LP-B2",
+      "number": "L2",
+      "originalNumber": "L2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 236,
+      "panelNumber": "A-LP-B2",
+      "number": "L3",
+      "originalNumber": "L3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 237,
+      "panelNumber": "A-LP-B2",
+      "number": "L4",
+      "originalNumber": "L4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "화장실전등",
+      "note": ""
+    },
+    {
+      "sourceRow": 238,
+      "panelNumber": "A-LP-B2",
+      "number": "L5",
+      "originalNumber": "L5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상등",
+      "note": ""
+    },
+    {
+      "sourceRow": 239,
+      "panelNumber": "A-LP-B2",
+      "number": "L6",
+      "originalNumber": "L6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "캐노피전등",
+      "note": ""
+    },
+    {
+      "sourceRow": 246,
+      "panelNumber": "B-LE-B2",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 249,
+      "panelNumber": "B-LE-B2",
+      "number": "E1",
+      "originalNumber": "E1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상등",
+      "note": ""
+    },
+    {
+      "sourceRow": 250,
+      "panelNumber": "B-LE-B2",
+      "number": "E2",
+      "originalNumber": "E2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상등",
+      "note": ""
+    },
+    {
+      "sourceRow": 251,
+      "panelNumber": "B-LE-B2",
+      "number": "E3",
+      "originalNumber": "E3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 252,
+      "panelNumber": "B-LE-B2",
+      "number": "E4",
+      "originalNumber": "E4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 253,
+      "panelNumber": "B-LE-B2",
+      "number": "E5",
+      "originalNumber": "E5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 254,
+      "panelNumber": "B-LE-B2",
+      "number": "E6",
+      "originalNumber": "E6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 255,
+      "panelNumber": "B-LE-B2",
+      "number": "E7",
+      "originalNumber": "E7",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 256,
+      "panelNumber": "B-LE-B2",
+      "number": "E8",
+      "originalNumber": "E8",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "조명제어",
+      "note": ""
+    },
+    {
+      "sourceRow": 257,
+      "panelNumber": "B-LE-B2",
+      "number": "E9",
+      "originalNumber": "E9",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "B3F램프 주차관제",
+      "note": ""
+    },
+    {
+      "sourceRow": 258,
+      "panelNumber": "B-LE-B2",
+      "number": "E10",
+      "originalNumber": "E10",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "2관 유도등(주차장)",
+      "note": ""
+    },
+    {
+      "sourceRow": 259,
+      "panelNumber": "B-LP-B2",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "350",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 260,
+      "panelNumber": "B-LP-B2",
+      "number": "LP-B2-D",
+      "originalNumber": "LP-B2-D",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "175",
+      "installationDate": "2011-10-01",
+      "load": "한컴구내식당,교육관",
+      "note": ""
+    },
+    {
+      "sourceRow": 261,
+      "panelNumber": "B-LP-B2",
+      "number": "LP-B2-B",
+      "originalNumber": "LP-B2-B",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "125",
+      "installationDate": "2011-10-01",
+      "load": "카페",
+      "note": ""
+    },
+    {
+      "sourceRow": 266,
+      "panelNumber": "B-LP-B2",
+      "number": "R1",
+      "originalNumber": "R1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 267,
+      "panelNumber": "B-LP-B2",
+      "number": "R2",
+      "originalNumber": "R2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "SPARE",
+      "note": ""
+    },
+    {
+      "sourceRow": 268,
+      "panelNumber": "B-LP-B2",
+      "number": "H1",
+      "originalNumber": "H1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "화장실",
+      "note": ""
+    },
+    {
+      "sourceRow": 269,
+      "panelNumber": "B-LP-B2",
+      "number": "H2",
+      "originalNumber": "H2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "화장실",
+      "note": ""
+    },
+    {
+      "sourceRow": 270,
+      "panelNumber": "B-LP-B2",
+      "number": "L1",
+      "originalNumber": "L1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 271,
+      "panelNumber": "B-LP-B2",
+      "number": "L2",
+      "originalNumber": "L2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 272,
+      "panelNumber": "B-LP-B2",
+      "number": "L3",
+      "originalNumber": "L3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "벽쪽등",
+      "note": ""
+    },
+    {
+      "sourceRow": 273,
+      "panelNumber": "B-LP-B2",
+      "number": "L4",
+      "originalNumber": "L4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 288,
+      "panelNumber": "C-LE-B2",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 293,
+      "panelNumber": "C-LE-B2",
+      "number": "E1",
+      "originalNumber": "E1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상조명등",
+      "note": ""
+    },
+    {
+      "sourceRow": 294,
+      "panelNumber": "C-LE-B2",
+      "number": "E2",
+      "originalNumber": "E2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상조명등(4관내부)",
+      "note": ""
+    },
+    {
+      "sourceRow": 295,
+      "panelNumber": "C-LE-B2",
+      "number": "E3",
+      "originalNumber": "E3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2023-11-10",
+      "load": "주차입구 (1F->B2F)벽면등 좌1 ○",
+      "note": ""
+    },
+    {
+      "sourceRow": 296,
+      "panelNumber": "C-LE-B2",
+      "number": "E4",
+      "originalNumber": "E4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "주차입구 (1F->B2F)벽면등 좌2 X",
+      "note": ""
+    },
+    {
+      "sourceRow": 297,
+      "panelNumber": "C-LE-B2",
+      "number": "E5",
+      "originalNumber": "E5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "주차입구 (1F->B2F)벽면등 우1 ○",
+      "note": ""
+    },
+    {
+      "sourceRow": 298,
+      "panelNumber": "C-LE-B2",
+      "number": "E6",
+      "originalNumber": "E6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "주차입구 (1F->B2F)벽면등 우2 X",
+      "note": ""
+    },
+    {
+      "sourceRow": 299,
+      "panelNumber": "C-LE-B2",
+      "number": "E7",
+      "originalNumber": "E7",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 300,
+      "panelNumber": "C-LE-B2",
+      "number": "E8",
+      "originalNumber": "E8",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "조명제어",
+      "note": ""
+    },
+    {
+      "sourceRow": 303,
+      "panelNumber": "C-LP-B2",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "250",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 304,
+      "panelNumber": "C-LP-B2",
+      "number": "LP-B2-C",
+      "originalNumber": "LP-B2-C",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 310,
+      "panelNumber": "C-LP-B2",
+      "number": "L1",
+      "originalNumber": "L1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 311,
+      "panelNumber": "C-LP-B2",
+      "number": "L2",
+      "originalNumber": "L2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 312,
+      "panelNumber": "C-LP-B2",
+      "number": "L3",
+      "originalNumber": "L3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 313,
+      "panelNumber": "C-LP-B2",
+      "number": "L4",
+      "originalNumber": "L4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 314,
+      "panelNumber": "C-LP-B2",
+      "number": "L5",
+      "originalNumber": "L5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "복도간접등",
+      "note": ""
+    },
+    {
+      "sourceRow": 315,
+      "panelNumber": "C-LP-B2",
+      "number": "L6",
+      "originalNumber": "L6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "화장실",
+      "note": ""
+    },
+    {
+      "sourceRow": 316,
+      "panelNumber": "C-LP-B2",
+      "number": "R1",
+      "originalNumber": "R1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 317,
+      "panelNumber": "C-LP-B2",
+      "number": "R2",
+      "originalNumber": "R2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 318,
+      "panelNumber": "C-LP-B2",
+      "number": "R3",
+      "originalNumber": "R3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 319,
+      "panelNumber": "C-LP-B2",
+      "number": "H1",
+      "originalNumber": "H1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "화장실",
+      "note": ""
+    },
+    {
+      "sourceRow": 324,
+      "panelNumber": "D-LE-B2",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 329,
+      "panelNumber": "D-LE-B2",
+      "number": "E1",
+      "originalNumber": "E1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상조명등",
+      "note": ""
+    },
+    {
+      "sourceRow": 330,
+      "panelNumber": "D-LE-B2",
+      "number": "E2",
+      "originalNumber": "E2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 331,
+      "panelNumber": "D-LE-B2",
+      "number": "E3",
+      "originalNumber": "E3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 332,
+      "panelNumber": "D-LE-B2",
+      "number": "E4",
+      "originalNumber": "E4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 333,
+      "panelNumber": "D-LE-B2",
+      "number": "E5",
+      "originalNumber": "E5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 334,
+      "panelNumber": "D-LE-B2",
+      "number": "E6",
+      "originalNumber": "E6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 335,
+      "panelNumber": "D-LE-B2",
+      "number": "E7",
+      "originalNumber": "E7",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 336,
+      "panelNumber": "D-LE-B2",
+      "number": "E8",
+      "originalNumber": "E8",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 337,
+      "panelNumber": "D-LE-B2",
+      "number": "E9",
+      "originalNumber": "E9",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "조명제어",
+      "note": ""
+    },
+    {
+      "sourceRow": 338,
+      "panelNumber": "D-LE-B2",
+      "number": "E10",
+      "originalNumber": "E10",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "유도등",
+      "note": ""
+    },
+    {
+      "sourceRow": 339,
+      "panelNumber": "D-LP-B2",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "350",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 340,
+      "panelNumber": "D-LP-B2",
+      "number": "LP-B2-G",
+      "originalNumber": "LP-B2-G",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "150",
+      "installationDate": "2011-10-01",
+      "load": "공조실옆",
+      "note": ""
+    },
+    {
+      "sourceRow": 341,
+      "panelNumber": "D-LP-B2",
+      "number": "LP-SMP-2",
+      "originalNumber": "LP-SMP-2",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "75",
+      "installationDate": null,
+      "load": "스노우멜팅",
+      "note": ""
+    },
+    {
+      "sourceRow": 342,
+      "panelNumber": "D-LP-B2",
+      "number": "LP-B2-F",
+      "originalNumber": "LP-B2-F",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "100",
+      "installationDate": null,
+      "load": "스포츠센터앞",
+      "note": ""
+    },
+    {
+      "sourceRow": 346,
+      "panelNumber": "D-LP-B2",
+      "number": "L1",
+      "originalNumber": "L1",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 347,
+      "panelNumber": "D-LP-B2",
+      "number": "L2",
+      "originalNumber": "L2",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 348,
+      "panelNumber": "D-LP-B2",
+      "number": "L3",
+      "originalNumber": "L3",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 349,
+      "panelNumber": "D-LP-B2",
+      "number": "L4",
+      "originalNumber": "L4",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 350,
+      "panelNumber": "D-LP-B2",
+      "number": "L5",
+      "originalNumber": "L5",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "공조실",
+      "note": ""
+    },
+    {
+      "sourceRow": 351,
+      "panelNumber": "D-LP-B2",
+      "number": "L6",
+      "originalNumber": "L6",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "하역장",
+      "note": ""
+    },
+    {
+      "sourceRow": 352,
+      "panelNumber": "D-LP-B2",
+      "number": "L7",
+      "originalNumber": "L7",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 353,
+      "panelNumber": "D-LP-B2",
+      "number": "L8",
+      "originalNumber": "L8",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "남자화장실",
+      "note": ""
+    },
+    {
+      "sourceRow": 379,
+      "panelNumber": "LP-ELEC-A",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "100",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 382,
+      "panelNumber": "LP-ELEC-A",
+      "number": "01방화샷다",
+      "originalNumber": "01방화샷다",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 383,
+      "panelNumber": "LP-ELEC-A",
+      "number": "R1",
+      "originalNumber": "R1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 384,
+      "panelNumber": "LP-ELEC-A",
+      "number": "R2",
+      "originalNumber": "R2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 385,
+      "panelNumber": "LP-ELEC-A",
+      "number": "R3",
+      "originalNumber": "R3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "1,2관기계실 내부 전열콘센트",
+      "note": ""
+    },
+    {
+      "sourceRow": 386,
+      "panelNumber": "LP-ELEC-A",
+      "number": "L1",
+      "originalNumber": "L1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 387,
+      "panelNumber": "LP-ELEC-A",
+      "number": "L2",
+      "originalNumber": "L2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 388,
+      "panelNumber": "LP-ELEC-A",
+      "number": "L3",
+      "originalNumber": "L3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 389,
+      "panelNumber": "LP-ELEC-A",
+      "number": "L4",
+      "originalNumber": "L4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "전기",
+      "note": ""
+    },
+    {
+      "sourceRow": 390,
+      "panelNumber": "LP-ELEC-A",
+      "number": "L5",
+      "originalNumber": "L5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "전기",
+      "note": ""
+    },
+    {
+      "sourceRow": 391,
+      "panelNumber": "LP-ELEC-A",
+      "number": "L6",
+      "originalNumber": "L6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "발전",
+      "note": ""
+    },
+    {
+      "sourceRow": 400,
+      "panelNumber": "LP-ELEC-B",
+      "number": "MAIN",
+      "originalNumber": "MAIN",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "100",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 403,
+      "panelNumber": "LP-ELEC-B",
+      "number": "01방화샷다",
+      "originalNumber": "01방화샷다",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 404,
+      "panelNumber": "LP-ELEC-B",
+      "number": "R1",
+      "originalNumber": "R1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 405,
+      "panelNumber": "LP-ELEC-B",
+      "number": "R2",
+      "originalNumber": "R2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "세탁기용/충전기용",
+      "note": ""
+    },
+    {
+      "sourceRow": 406,
+      "panelNumber": "LP-ELEC-B",
+      "number": "E1",
+      "originalNumber": "E1",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 407,
+      "panelNumber": "LP-ELEC-B",
+      "number": "E2",
+      "originalNumber": "E2",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 408,
+      "panelNumber": "LP-ELEC-B",
+      "number": "E3",
+      "originalNumber": "E3",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 409,
+      "panelNumber": "LP-ELEC-B",
+      "number": "E4",
+      "originalNumber": "E4",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 410,
+      "panelNumber": "LP-ELEC-B",
+      "number": "E5",
+      "originalNumber": "E5",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "전기실",
+      "note": ""
+    },
+    {
+      "sourceRow": 411,
+      "panelNumber": "LP-ELEC-B",
+      "number": "E6",
+      "originalNumber": "E6",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "전기실",
+      "note": ""
+    },
+    {
+      "sourceRow": 412,
+      "panelNumber": "LP-ELEC-B",
+      "number": "E7",
+      "originalNumber": "E7",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": "S/P"
+    }
+  ],
+  "excludedSpareBreakers": [
+    {
+      "sourceRow": 68,
+      "panelNumber": "C-LP-06",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 69,
+      "panelNumber": "C-LP-06",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 78,
+      "panelNumber": "C-LP-06",
+      "number": "SPARE(증설) [1]",
+      "originalNumber": "SPARE(증설)",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 79,
+      "panelNumber": "C-LP-06",
+      "number": "SPARE(증설) [2]",
+      "originalNumber": "SPARE(증설)",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 80,
+      "panelNumber": "C-LP-06",
+      "number": "SPARE(증설) [3]",
+      "originalNumber": "SPARE(증설)",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 81,
+      "panelNumber": "C-LP-06",
+      "number": "SPARE(증설) [4]",
+      "originalNumber": "SPARE(증설)",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 84,
+      "panelNumber": "C-LP-06A",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 85,
+      "panelNumber": "C-LP-06A",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 109,
+      "panelNumber": "C-LP-06A",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 110,
+      "panelNumber": "C-LP-06A",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 111,
+      "panelNumber": "C-LP-06A",
+      "number": "SPARE [5]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 112,
+      "panelNumber": "C-LP-06A",
+      "number": "SPARE [6]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 113,
+      "panelNumber": "C-LP-06A",
+      "number": "SPARE [7]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 115,
+      "panelNumber": "C-LP-06B",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "50",
+      "installationDate": null,
+      "load": "전기IP에어컨전원",
+      "note": ""
+    },
+    {
+      "sourceRow": 116,
+      "panelNumber": "C-LP-06B",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 143,
+      "panelNumber": "C-LP-06B",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 144,
+      "panelNumber": "C-LP-06B",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 215,
+      "panelNumber": "A-LE-B2",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "FD1방화샷다",
+      "note": ""
+    },
+    {
+      "sourceRow": 216,
+      "panelNumber": "A-LE-B2",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 229,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "100",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 231,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 233,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 240,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "로비전등",
+      "note": ""
+    },
+    {
+      "sourceRow": 241,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [5]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "현관전등",
+      "note": ""
+    },
+    {
+      "sourceRow": 242,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [6]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "1관 광고판전원",
+      "note": "Spare ADD (2026.06.12)"
+    },
+    {
+      "sourceRow": 243,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [7]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 244,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [8]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 245,
+      "panelNumber": "A-LP-B2",
+      "number": "SPARE [9]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 247,
+      "panelNumber": "B-LE-B2",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "FD1방화샷다",
+      "note": ""
+    },
+    {
+      "sourceRow": 248,
+      "panelNumber": "B-LE-B2",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 262,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 263,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 264,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 265,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 274,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [5]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "복도간접등",
+      "note": ""
+    },
+    {
+      "sourceRow": 275,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [6]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "복도간접등",
+      "note": ""
+    },
+    {
+      "sourceRow": 276,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [7]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상등",
+      "note": ""
+    },
+    {
+      "sourceRow": 277,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [8]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 278,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [9]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 279,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [10]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "공조실등",
+      "note": ""
+    },
+    {
+      "sourceRow": 280,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [11]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "스페이스애드",
+      "note": ""
+    },
+    {
+      "sourceRow": 281,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [12]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 282,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [13]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 283,
+      "panelNumber": "B-LP-B2",
+      "number": "SPARE [14]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 289,
+      "panelNumber": "C-LE-B2",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "FD1방화샷다",
+      "note": ""
+    },
+    {
+      "sourceRow": 290,
+      "panelNumber": "C-LE-B2",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "FD2방화샷다",
+      "note": ""
+    },
+    {
+      "sourceRow": 291,
+      "panelNumber": "C-LE-B2",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 292,
+      "panelNumber": "C-LE-B2",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 301,
+      "panelNumber": "C-LE-B2",
+      "number": "SPARE [5]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 302,
+      "panelNumber": "C-LE-B2",
+      "number": "SPARE [6]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "OLLEH KT",
+      "note": ""
+    },
+    {
+      "sourceRow": 305,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "100",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 306,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 307,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 308,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 309,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [5]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 320,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [6]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "비상등",
+      "note": ""
+    },
+    {
+      "sourceRow": 321,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [7]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "조명제어CNI전원",
+      "note": ""
+    },
+    {
+      "sourceRow": 322,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [8]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 323,
+      "panelNumber": "C-LP-B2",
+      "number": "SPARE [9]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 325,
+      "panelNumber": "D-LE-B2",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "FD1방화샷다",
+      "note": ""
+    },
+    {
+      "sourceRow": 326,
+      "panelNumber": "D-LE-B2",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 327,
+      "panelNumber": "D-LE-B2",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 328,
+      "panelNumber": "D-LE-B2",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 343,
+      "panelNumber": "D-LP-B2",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "100",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 344,
+      "panelNumber": "D-LP-B2",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "50",
+      "installationDate": null,
+      "load": "동파방지",
+      "note": ""
+    },
+    {
+      "sourceRow": 345,
+      "panelNumber": "D-LP-B2",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "40",
+      "installationDate": null,
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 354,
+      "panelNumber": "D-LP-B2",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 355,
+      "panelNumber": "D-LP-B2",
+      "number": "SPARE [5]",
+      "originalNumber": "SPARE",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "위메이드 미화휴게실 온돌판넬",
+      "note": ""
+    },
+    {
+      "sourceRow": 356,
+      "panelNumber": "D-LP-B2",
+      "number": "SPARE [6]",
+      "originalNumber": "SPARE",
+      "kind": "",
+      "ports": null,
+      "ratedAmps": "",
+      "installationDate": null,
+      "load": "위메이드 미화휴게실 온돌판넬",
+      "note": ""
+    },
+    {
+      "sourceRow": 357,
+      "panelNumber": "D-LP-B2",
+      "number": "SPARE [7]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": null,
+      "load": "위메이드 미화휴게실 일반전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 380,
+      "panelNumber": "LP-ELEC-A",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 381,
+      "panelNumber": "LP-ELEC-A",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 392,
+      "panelNumber": "LP-ELEC-A",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "옥내저장탱크 전등",
+      "note": ""
+    },
+    {
+      "sourceRow": 393,
+      "panelNumber": "LP-ELEC-A",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "난방기기전원",
+      "note": ""
+    },
+    {
+      "sourceRow": 394,
+      "panelNumber": "LP-ELEC-A",
+      "number": "SPARE [5]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 395,
+      "panelNumber": "LP-ELEC-A",
+      "number": "SPARE [6]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 396,
+      "panelNumber": "LP-ELEC-A",
+      "number": "SPARE [7]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 397,
+      "panelNumber": "LP-ELEC-A",
+      "number": "SPARE [8]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 401,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [1]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 402,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [2]",
+      "originalNumber": "SPARE",
+      "kind": "MCCB",
+      "ports": 3,
+      "ratedAmps": "40",
+      "installationDate": "2011-10-01",
+      "load": "미화대기실 A/C",
+      "note": ""
+    },
+    {
+      "sourceRow": 413,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [3]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "지역난방 열량계",
+      "note": "조작금지"
+    },
+    {
+      "sourceRow": 414,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [4]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "미화전등",
+      "note": ""
+    },
+    {
+      "sourceRow": 415,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [5]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2018-02-06",
+      "load": "미화전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 416,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [6]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "미화전열",
+      "note": ""
+    },
+    {
+      "sourceRow": 417,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [7]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "미화",
+      "note": ""
+    },
+    {
+      "sourceRow": 418,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [8]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    },
+    {
+      "sourceRow": 419,
+      "panelNumber": "LP-ELEC-B",
+      "number": "SPARE [9]",
+      "originalNumber": "SPARE",
+      "kind": "ELB",
+      "ports": 2,
+      "ratedAmps": "20",
+      "installationDate": "2011-10-01",
+      "load": "",
+      "note": ""
+    }
+  ],
+  "sourceSheets": {
+    "분전함마스터": {
+      "rows": {
+        "2": {
+          "B": "관",
+          "C": "층",
+          "D": "분전함번호",
+          "E": "FROM분전함",
+          "F": "분전함위치",
+          "G": "특기사항"
+        },
+        "3": {
+          "B": "1",
+          "C": "11",
+          "D": "A-LP-11"
+        },
+        "4": {
+          "B": "1",
+          "C": "11",
+          "D": "A-LP-11A"
+        },
+        "5": {
+          "B": "1",
+          "C": "11",
+          "D": "A-LP-11B"
+        },
+        "6": {
+          "B": "2",
+          "C": "11",
+          "D": "B-LP-11"
+        },
+        "7": {
+          "B": "2",
+          "C": "11",
+          "D": "B-LP-11A"
+        },
+        "8": {
+          "B": "2",
+          "C": "11",
+          "D": "B-LP-11B"
+        },
+        "9": {
+          "B": "1",
+          "C": "10",
+          "D": "A-LP-10"
+        },
+        "10": {
+          "B": "1",
+          "C": "10",
+          "D": "A-LP-10A"
+        },
+        "11": {
+          "B": "1",
+          "C": "10",
+          "D": "A-LP-10B"
+        },
+        "12": {
+          "B": "2",
+          "C": "10",
+          "D": "B-LP-10"
+        },
+        "13": {
+          "B": "2",
+          "C": "10",
+          "D": "B-LP-10A"
+        },
+        "14": {
+          "B": "2",
+          "C": "10",
+          "D": "B-LP-10B"
+        },
+        "15": {
+          "B": "3",
+          "C": "10",
+          "D": "C-LP-10"
+        },
+        "16": {
+          "B": "3",
+          "C": "10",
+          "D": "C-LP-10A"
+        },
+        "17": {
+          "B": "3",
+          "C": "10",
+          "D": "C-LP-10B"
+        },
+        "18": {
+          "B": "4",
+          "C": "10",
+          "D": "D-LP-10"
+        },
+        "19": {
+          "B": "4",
+          "C": "10",
+          "D": "D-LP-10A"
+        },
+        "20": {
+          "B": "4",
+          "C": "10",
+          "D": "D-LP-10B"
+        },
+        "21": {
+          "B": "1",
+          "C": "9",
+          "D": "A-LP-09"
+        },
+        "22": {
+          "B": "1",
+          "C": "9",
+          "D": "A-LP-09A"
+        },
+        "23": {
+          "B": "1",
+          "C": "9",
+          "D": "A-LP-09B"
+        },
+        "24": {
+          "B": "2",
+          "C": "9",
+          "D": "B-LP-09"
+        },
+        "25": {
+          "B": "2",
+          "C": "9",
+          "D": "B-LP-09A"
+        },
+        "26": {
+          "B": "2",
+          "C": "9",
+          "D": "B-LP-09B"
+        },
+        "27": {
+          "B": "3",
+          "C": "9",
+          "D": "C-LP-09"
+        },
+        "28": {
+          "B": "3",
+          "C": "9",
+          "D": "C-LP-09A"
+        },
+        "29": {
+          "B": "3",
+          "C": "9",
+          "D": "C-LP-09B"
+        },
+        "30": {
+          "B": "4",
+          "C": "9",
+          "D": "D-LP-09"
+        },
+        "31": {
+          "B": "4",
+          "C": "9",
+          "D": "D-LP-09A"
+        },
+        "32": {
+          "B": "4",
+          "C": "9",
+          "D": "D-LP-09B"
+        },
+        "33": {
+          "B": "1",
+          "C": "8",
+          "D": "A-LP-08"
+        },
+        "34": {
+          "B": "1",
+          "C": "8",
+          "D": "A-LP-08A"
+        },
+        "35": {
+          "B": "1",
+          "C": "8",
+          "D": "A-LP-08B"
+        },
+        "36": {
+          "B": "2",
+          "C": "8",
+          "D": "B-LP-08"
+        },
+        "37": {
+          "B": "2",
+          "C": "8",
+          "D": "B-LP-08A"
+        },
+        "38": {
+          "B": "2",
+          "C": "8",
+          "D": "B-LP-08B"
+        },
+        "39": {
+          "B": "3",
+          "C": "8",
+          "D": "C-LP-08"
+        },
+        "40": {
+          "B": "3",
+          "C": "8",
+          "D": "C-LP-08A"
+        },
+        "41": {
+          "B": "3",
+          "C": "8",
+          "D": "C-LP-08B"
+        },
+        "42": {
+          "B": "4",
+          "C": "8",
+          "D": "D-LP-08"
+        },
+        "43": {
+          "B": "4",
+          "C": "8",
+          "D": "D-LP-08A"
+        },
+        "44": {
+          "B": "4",
+          "C": "8",
+          "D": "D-LP-08B"
+        },
+        "45": {
+          "B": "1",
+          "C": "7",
+          "D": "A-LP-07"
+        },
+        "46": {
+          "B": "1",
+          "C": "7",
+          "D": "A-LP-07A"
+        },
+        "47": {
+          "B": "1",
+          "C": "7",
+          "D": "A-LP-07B"
+        },
+        "48": {
+          "B": "2",
+          "C": "7",
+          "D": "B-LP-07"
+        },
+        "49": {
+          "B": "2",
+          "C": "7",
+          "D": "B-LP-07A"
+        },
+        "50": {
+          "B": "2",
+          "C": "7",
+          "D": "B-LP-07B"
+        },
+        "51": {
+          "B": "3",
+          "C": "7",
+          "D": "C-LP-07"
+        },
+        "52": {
+          "B": "3",
+          "C": "7",
+          "D": "C-LP-07A"
+        },
+        "53": {
+          "B": "3",
+          "C": "7",
+          "D": "C-LP-07B"
+        },
+        "54": {
+          "B": "4",
+          "C": "7",
+          "D": "D-LP-07"
+        },
+        "55": {
+          "B": "4",
+          "C": "7",
+          "D": "D-LP-07A"
+        },
+        "56": {
+          "B": "4",
+          "C": "7",
+          "D": "D-LP-07B"
+        },
+        "57": {
+          "B": "1",
+          "C": "6",
+          "D": "A-LP-06"
+        },
+        "58": {
+          "B": "1",
+          "C": "6",
+          "D": "A-LE-06"
+        },
+        "59": {
+          "B": "1",
+          "C": "6",
+          "D": "A-LP-06A"
+        },
+        "60": {
+          "B": "1",
+          "C": "6",
+          "D": "A-LP-06B"
+        },
+        "61": {
+          "B": "2",
+          "C": "6",
+          "D": "B-LP-06"
+        },
+        "62": {
+          "B": "2",
+          "C": "6",
+          "D": "B-LE-06"
+        },
+        "63": {
+          "B": "2",
+          "C": "6",
+          "D": "B-LP-06A"
+        },
+        "64": {
+          "B": "2",
+          "C": "6",
+          "D": "B-LP-06B"
+        },
+        "65": {
+          "B": "3",
+          "C": "6",
+          "D": "C-LP-06"
+        },
+        "66": {
+          "B": "3",
+          "C": "6",
+          "D": "C-LE-06"
+        },
+        "67": {
+          "B": "3",
+          "C": "6",
+          "D": "C-LP-06A"
+        },
+        "68": {
+          "B": "3",
+          "C": "6",
+          "D": "C-LP-06B"
+        },
+        "69": {
+          "B": "4",
+          "C": "6",
+          "D": "D-LP-06"
+        },
+        "70": {
+          "B": "4",
+          "C": "6",
+          "D": "D-LE-06"
+        },
+        "71": {
+          "B": "4",
+          "C": "6",
+          "D": "D-LP-06A"
+        },
+        "72": {
+          "B": "4",
+          "C": "6",
+          "D": "D-LP-06B"
+        },
+        "73": {
+          "B": "1",
+          "C": "5",
+          "D": "A-LP-05"
+        },
+        "74": {
+          "B": "1",
+          "C": "5",
+          "D": "A-LP-05A"
+        },
+        "75": {
+          "B": "1",
+          "C": "5",
+          "D": "A-LP-05B"
+        },
+        "76": {
+          "B": "2",
+          "C": "5",
+          "D": "B-LP-05"
+        },
+        "77": {
+          "B": "2",
+          "C": "5",
+          "D": "B-LP-05A"
+        },
+        "78": {
+          "B": "2",
+          "C": "5",
+          "D": "B-LP-05B"
+        },
+        "79": {
+          "B": "3",
+          "C": "5",
+          "D": "C-LP-05"
+        },
+        "80": {
+          "B": "3",
+          "C": "5",
+          "D": "C-LP-05A"
+        },
+        "81": {
+          "B": "3",
+          "C": "5",
+          "D": "C-LP-05B"
+        },
+        "82": {
+          "B": "4",
+          "C": "5",
+          "D": "D-LP-05"
+        },
+        "83": {
+          "B": "4",
+          "C": "5",
+          "D": "D-LP-05A"
+        },
+        "84": {
+          "B": "4",
+          "C": "5",
+          "D": "D-LP-05B"
+        },
+        "85": {
+          "B": "1",
+          "C": "4",
+          "D": "A-LP-04"
+        },
+        "86": {
+          "B": "1",
+          "C": "4",
+          "D": "A-LP-04A"
+        },
+        "87": {
+          "B": "1",
+          "C": "4",
+          "D": "A-LP-04B"
+        },
+        "88": {
+          "B": "2",
+          "C": "4",
+          "D": "B-LP-04"
+        },
+        "89": {
+          "B": "2",
+          "C": "4",
+          "D": "B-LP-04A"
+        },
+        "90": {
+          "B": "2",
+          "C": "4",
+          "D": "B-LP-04B"
+        },
+        "91": {
+          "B": "3",
+          "C": "4",
+          "D": "C-LP-04"
+        },
+        "92": {
+          "B": "3",
+          "C": "4",
+          "D": "C-LP-04A"
+        },
+        "93": {
+          "B": "3",
+          "C": "4",
+          "D": "C-LP-04B"
+        },
+        "94": {
+          "B": "4",
+          "C": "4",
+          "D": "D-LP-04"
+        },
+        "95": {
+          "B": "4",
+          "C": "4",
+          "D": "D-LP-04A"
+        },
+        "96": {
+          "B": "4",
+          "C": "4",
+          "D": "D-LP-04B"
+        },
+        "97": {
+          "B": "1",
+          "C": "3",
+          "D": "A-LP-03"
+        },
+        "98": {
+          "B": "1",
+          "C": "3",
+          "D": "A-LP-03A"
+        },
+        "99": {
+          "B": "1",
+          "C": "3",
+          "D": "A-LP-03B"
+        },
+        "100": {
+          "B": "2",
+          "C": "3",
+          "D": "B-LP-03"
+        },
+        "101": {
+          "B": "2",
+          "C": "3",
+          "D": "B-LP-03A"
+        },
+        "102": {
+          "B": "2",
+          "C": "3",
+          "D": "B-LP-03B"
+        },
+        "103": {
+          "B": "3",
+          "C": "3",
+          "D": "C-LP-03"
+        },
+        "104": {
+          "B": "3",
+          "C": "3",
+          "D": "C-LP-03A"
+        },
+        "105": {
+          "B": "3",
+          "C": "3",
+          "D": "C-LP-03B"
+        },
+        "106": {
+          "B": "4",
+          "C": "3",
+          "D": "D-LP-03"
+        },
+        "107": {
+          "B": "4",
+          "C": "3",
+          "D": "D-LP-03A"
+        },
+        "108": {
+          "B": "4",
+          "C": "3",
+          "D": "D-LP-03B"
+        },
+        "109": {
+          "B": "1",
+          "C": "2",
+          "D": "A-LP-02"
+        },
+        "110": {
+          "B": "1",
+          "C": "2",
+          "D": "A-LP-02A"
+        },
+        "111": {
+          "B": "1",
+          "C": "2",
+          "D": "A-LP-02B"
+        },
+        "112": {
+          "B": "2",
+          "C": "2",
+          "D": "B-LP-02"
+        },
+        "113": {
+          "B": "2",
+          "C": "2",
+          "D": "B-LP-02A"
+        },
+        "114": {
+          "B": "2",
+          "C": "2",
+          "D": "B-LP-02B"
+        },
+        "115": {
+          "B": "3",
+          "C": "2",
+          "D": "C-LP-02"
+        },
+        "116": {
+          "B": "3",
+          "C": "2",
+          "D": "C-LP-02A"
+        },
+        "117": {
+          "B": "3",
+          "C": "2",
+          "D": "C-LP-02B"
+        },
+        "118": {
+          "B": "4",
+          "C": "2",
+          "D": "D-LP-02"
+        },
+        "119": {
+          "B": "4",
+          "C": "2",
+          "D": "D-LP-02A"
+        },
+        "120": {
+          "B": "4",
+          "C": "2",
+          "D": "D-LP-02B"
+        },
+        "121": {
+          "B": "1",
+          "C": "1",
+          "D": "A-LP-01"
+        },
+        "122": {
+          "B": "1",
+          "C": "1",
+          "D": "A-LP-01A"
+        },
+        "123": {
+          "B": "1",
+          "C": "1",
+          "D": "A-LP-01B"
+        },
+        "124": {
+          "B": "1",
+          "C": "1",
+          "D": "A-LP-01C"
+        },
+        "125": {
+          "B": "2",
+          "C": "1",
+          "D": "B-LP-01"
+        },
+        "126": {
+          "B": "2",
+          "C": "1",
+          "D": "B-LP-01A"
+        },
+        "127": {
+          "B": "3",
+          "C": "1",
+          "D": "C-LP-01"
+        },
+        "128": {
+          "B": "3",
+          "C": "1",
+          "D": "C-LP-01A"
+        },
+        "129": {
+          "B": "4",
+          "C": "1",
+          "D": "D-LP-01"
+        },
+        "130": {
+          "B": "4",
+          "C": "1",
+          "D": "D-LP-01A"
+        },
+        "131": {
+          "B": "34",
+          "C": "B1",
+          "D": "C-LP-B1"
+        },
+        "132": {
+          "B": "34",
+          "C": "B1",
+          "D": "D-LP-B1"
+        },
+        "133": {
+          "B": "34",
+          "C": "B1",
+          "D": "LP-B1-A"
+        },
+        "134": {
+          "B": "34",
+          "C": "B1",
+          "D": "LP-B1-B"
+        },
+        "135": {
+          "B": "34",
+          "C": "B1",
+          "D": "LE-B1-MDF"
+        },
+        "136": {
+          "B": "34",
+          "C": "B1",
+          "D": "D-LE-B1"
+        },
+        "137": {
+          "B": "1",
+          "C": "B2",
+          "D": "A-LE-B2",
+          "E": "LE-PK-B4A",
+          "F": "1관 EPS"
+        },
+        "138": {
+          "B": "1",
+          "C": "B2",
+          "D": "A-LP-B2",
+          "F": "1관 EPS"
+        },
+        "139": {
+          "B": "2",
+          "C": "B2",
+          "D": "B-LE-B2",
+          "E": "LE-PK-B4A",
+          "F": "2관 EPS"
+        },
+        "140": {
+          "B": "2",
+          "C": "B2",
+          "D": "B-LP-B2",
+          "F": "2관 EPS"
+        },
+        "141": {
+          "B": "12",
+          "C": "B2",
+          "D": "LP-B2-A"
+        },
+        "142": {
+          "B": "12",
+          "C": "B2",
+          "D": "LP-B2-B"
+        },
+        "143": {
+          "B": "12",
+          "C": "B2",
+          "D": "LP-B2-C"
+        },
+        "144": {
+          "B": "12",
+          "C": "B2",
+          "D": "LP-B2-D"
+        },
+        "145": {
+          "B": "3",
+          "C": "B2",
+          "D": "C-LE-B2",
+          "E": "LE-PK-B4A",
+          "F": "3관 EPS"
+        },
+        "146": {
+          "B": "3",
+          "C": "B2",
+          "D": "C-LP-B2",
+          "F": "3관 EPS"
+        },
+        "147": {
+          "B": "4",
+          "C": "B2",
+          "D": "D-LE-B2",
+          "E": "LE-PK-B4A",
+          "F": "4관 EPS"
+        },
+        "148": {
+          "B": "4",
+          "C": "B2",
+          "D": "D-LP-B2",
+          "F": "4관 EPS"
+        },
+        "149": {
+          "B": "34",
+          "C": "B1",
+          "D": "LE-B2-FO",
+          "E": "D-LE-B1",
+          "F": "방재실"
+        },
+        "150": {
+          "B": "34",
+          "C": "B2",
+          "D": "LP-B2-E"
+        },
+        "151": {
+          "B": "34",
+          "C": "B2",
+          "D": "LP-B2-F"
+        },
+        "152": {
+          "B": "34",
+          "C": "B2",
+          "D": "LP-B2-G"
+        },
+        "153": {
+          "B": "4",
+          "C": "B2",
+          "D": "D-LE-B2",
+          "E": "LE-PK-B4A"
+        },
+        "154": {
+          "B": "12",
+          "C": "B3",
+          "D": "LP-PK-B3A"
+        },
+        "155": {
+          "B": "12",
+          "C": "B3",
+          "D": "LE-PK-B3A"
+        },
+        "156": {
+          "B": "34",
+          "C": "B3",
+          "D": "LP-PK-B3B"
+        },
+        "157": {
+          "B": "34",
+          "C": "B3",
+          "D": "LE-PK-B3B"
+        },
+        "158": {
+          "B": "12",
+          "C": "B4",
+          "D": "LP-PK-B4A"
+        },
+        "159": {
+          "B": "12",
+          "C": "B4",
+          "D": "LE-PK-B4A"
+        },
+        "160": {
+          "B": "12",
+          "C": "B4",
+          "D": "LP-ELEC-A",
+          "E": "LV-1B",
+          "F": "지하5층 1,2관 전기실"
+        },
+        "161": {
+          "B": "34",
+          "C": "B4",
+          "D": "LP-PK-B4B"
+        },
+        "162": {
+          "B": "34",
+          "C": "B4",
+          "D": "LE-PK-B4B"
+        },
+        "163": {
+          "B": "34",
+          "C": "B4",
+          "D": "LP-ELEC-B",
+          "E": "LV-1B",
+          "F": "지하5층 3,4관 전기실"
+        },
+        "164": {
+          "B": "12",
+          "C": "B5",
+          "D": "LP-PK-B5A"
+        },
+        "165": {
+          "B": "12",
+          "C": "B5",
+          "D": "LE-PK-B5A"
+        },
+        "166": {
+          "B": "34",
+          "C": "B5",
+          "D": "LP-PK-B5B"
+        },
+        "167": {
+          "B": "34",
+          "C": "B5",
+          "D": "LE-PK-B5B"
+        }
+      },
+      "merges": []
+    },
+    "차단기마스터": {
+      "rows": {
+        "2": {
+          "B": "분전함번호",
+          "C": "차단기번호",
+          "D": "차단기종류",
+          "E": "PORT수",
+          "F": "정격전류",
+          "G": "설치일자",
+          "H": "장소 (부하)",
+          "I": "특기사항"
+        },
+        "3": {
+          "B": "A-LP-11"
+        },
+        "4": {
+          "B": "A-LP-11A"
+        },
+        "5": {
+          "B": "A-LP-11B"
+        },
+        "6": {
+          "B": "B-LP-11"
+        },
+        "7": {
+          "B": "B-LP-11A"
+        },
+        "8": {
+          "B": "B-LP-11B"
+        },
+        "9": {
+          "B": "A-LP-10"
+        },
+        "10": {
+          "B": "A-LP-10A"
+        },
+        "11": {
+          "B": "A-LP-10B"
+        },
+        "12": {
+          "B": "B-LP-10"
+        },
+        "13": {
+          "B": "B-LP-10A"
+        },
+        "14": {
+          "B": "B-LP-10B"
+        },
+        "15": {
+          "B": "C-LP-10"
+        },
+        "16": {
+          "B": "C-LP-10A"
+        },
+        "17": {
+          "B": "C-LP-10B"
+        },
+        "18": {
+          "B": "D-LP-10"
+        },
+        "19": {
+          "B": "D-LP-10A"
+        },
+        "20": {
+          "B": "D-LP-10B"
+        },
+        "21": {
+          "B": "A-LP-09"
+        },
+        "22": {
+          "B": "A-LP-09A"
+        },
+        "23": {
+          "B": "A-LP-09B"
+        },
+        "24": {
+          "B": "B-LP-09"
+        },
+        "25": {
+          "B": "B-LP-09A"
+        },
+        "26": {
+          "B": "B-LP-09B"
+        },
+        "27": {
+          "B": "C-LP-09"
+        },
+        "28": {
+          "B": "C-LP-09A"
+        },
+        "29": {
+          "B": "C-LP-09B"
+        },
+        "30": {
+          "B": "D-LP-09"
+        },
+        "31": {
+          "B": "D-LP-09A"
+        },
+        "32": {
+          "B": "D-LP-09B"
+        },
+        "33": {
+          "B": "A-LP-08"
+        },
+        "34": {
+          "B": "A-LP-08A"
+        },
+        "35": {
+          "B": "A-LP-08B"
+        },
+        "36": {
+          "B": "B-LP-08"
+        },
+        "37": {
+          "B": "B-LP-08A"
+        },
+        "38": {
+          "B": "B-LP-08B"
+        },
+        "39": {
+          "B": "C-LP-08"
+        },
+        "40": {
+          "B": "C-LP-08A"
+        },
+        "41": {
+          "B": "C-LP-08B"
+        },
+        "42": {
+          "B": "D-LP-08"
+        },
+        "43": {
+          "B": "D-LP-08A"
+        },
+        "44": {
+          "B": "D-LP-08B"
+        },
+        "45": {
+          "B": "A-LP-07"
+        },
+        "46": {
+          "B": "A-LP-07A"
+        },
+        "47": {
+          "B": "A-LP-07B"
+        },
+        "48": {
+          "B": "B-LP-07"
+        },
+        "49": {
+          "B": "B-LP-07A"
+        },
+        "50": {
+          "B": "B-LP-07B"
+        },
+        "51": {
+          "B": "C-LP-07"
+        },
+        "52": {
+          "B": "C-LP-07A"
+        },
+        "53": {
+          "B": "C-LP-07B"
+        },
+        "54": {
+          "B": "D-LP-07"
+        },
+        "55": {
+          "B": "D-LP-07A"
+        },
+        "56": {
+          "B": "D-LP-07B"
+        },
+        "57": {
+          "B": "A-LP-06"
+        },
+        "58": {
+          "B": "A-LE-06"
+        },
+        "59": {
+          "B": "A-LP-06A"
+        },
+        "60": {
+          "B": "A-LP-06B"
+        },
+        "61": {
+          "B": "B-LP-06"
+        },
+        "62": {
+          "B": "B-LE-06"
+        },
+        "63": {
+          "B": "B-LP-06A"
+        },
+        "64": {
+          "B": "B-LP-06B"
+        },
+        "65": {
+          "B": "C-LP-06",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "350A",
+          "G": "40817"
+        },
+        "66": {
+          "C": "C-LP-6A",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "125A",
+          "G": "40817"
+        },
+        "67": {
+          "C": "C-LP-6B",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "125A",
+          "G": "40817"
+        },
+        "68": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "69": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "70": {
+          "C": "R1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "71": {
+          "C": "R2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "72": {
+          "C": "H1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "73": {
+          "C": "H2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "74": {
+          "C": "L1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "75": {
+          "C": "L2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "76": {
+          "C": "자동문",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "77": {
+          "C": "ADT",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "78": {
+          "C": "SPARE(증설)",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "79": {
+          "C": "SPARE(증설)",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "80": {
+          "C": "SPARE(증설)",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "81": {
+          "C": "SPARE(증설)",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "82": {
+          "B": "C-LE-06"
+        },
+        "83": {
+          "B": "C-LP-06A",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "125A",
+          "G": "40817"
+        },
+        "84": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "85": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "86": {
+          "C": "R1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "87": {
+          "C": "R2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "88": {
+          "C": "R3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "89": {
+          "C": "R4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "90": {
+          "C": "R5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "91": {
+          "C": "R6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "92": {
+          "C": "R7",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "93": {
+          "C": "R8",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "94": {
+          "C": "R9",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "?"
+        },
+        "95": {
+          "C": "R10",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "?"
+        },
+        "96": {
+          "C": "R11",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "97": {
+          "C": "R12",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "98": {
+          "C": "R13",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "99": {
+          "C": "R14",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "100": {
+          "C": "R15",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "101": {
+          "C": "R16",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A"
+        },
+        "102": {
+          "C": "R17",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "103": {
+          "C": "R18",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A"
+        },
+        "104": {
+          "C": "L1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "105": {
+          "C": "L2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "106": {
+          "C": "L3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "107": {
+          "C": "KT텔레캅",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "108": {
+          "C": "SKT",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "109": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "110": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "111": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A"
+        },
+        "112": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "113": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "114": {
+          "B": "C-LP-06B",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "125A",
+          "G": "40817"
+        },
+        "115": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "50A",
+          "H": "전기IP에어컨전원"
+        },
+        "116": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "117": {
+          "C": "R1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "118": {
+          "C": "R2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "119": {
+          "C": "R3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "120": {
+          "C": "R4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "121": {
+          "C": "R5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "122": {
+          "C": "R6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "123": {
+          "C": "R7",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "124": {
+          "C": "R8",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "125": {
+          "C": "R9",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "126": {
+          "C": "R10",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "127": {
+          "C": "R11",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "128": {
+          "C": "R12",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "129": {
+          "C": "R13",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "130": {
+          "C": "R14",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "131": {
+          "C": "R15",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "132": {
+          "C": "R16",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "133": {
+          "C": "R17",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "134": {
+          "C": "R18",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "135": {
+          "C": "L1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "위메이드시스템박스 전열"
+        },
+        "136": {
+          "C": "L2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "위메이드책상 전열"
+        },
+        "137": {
+          "C": "L3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "위메이드시스템박스 전열"
+        },
+        "138": {
+          "C": "L6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "위메이드책상 전열"
+        },
+        "139": {
+          "C": "L7",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "위메이드책상 전열"
+        },
+        "140": {
+          "C": "L8",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "위메이드책상 전열"
+        },
+        "141": {
+          "C": "조명제어",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "142": {
+          "C": "조명CNI전원",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "143": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "144": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "145": {
+          "B": "D-LP-06"
+        },
+        "146": {
+          "B": "D-LE-06"
+        },
+        "147": {
+          "B": "D-LP-06A"
+        },
+        "148": {
+          "B": "D-LP-06B"
+        },
+        "149": {
+          "B": "A-LP-05"
+        },
+        "150": {
+          "B": "A-LP-05A"
+        },
+        "151": {
+          "B": "A-LP-05B"
+        },
+        "152": {
+          "B": "B-LP-05"
+        },
+        "153": {
+          "B": "B-LP-05A"
+        },
+        "154": {
+          "B": "B-LP-05B"
+        },
+        "155": {
+          "B": "C-LP-05"
+        },
+        "156": {
+          "B": "C-LP-05A"
+        },
+        "157": {
+          "B": "C-LP-05B"
+        },
+        "158": {
+          "B": "D-LP-05"
+        },
+        "159": {
+          "B": "D-LP-05A"
+        },
+        "160": {
+          "B": "D-LP-05B"
+        },
+        "161": {
+          "B": "A-LP-04"
+        },
+        "162": {
+          "B": "A-LP-04A"
+        },
+        "163": {
+          "B": "A-LP-04B"
+        },
+        "164": {
+          "B": "B-LP-04"
+        },
+        "165": {
+          "B": "B-LP-04A"
+        },
+        "166": {
+          "B": "B-LP-04B"
+        },
+        "167": {
+          "B": "C-LP-04"
+        },
+        "168": {
+          "B": "C-LP-04A"
+        },
+        "169": {
+          "B": "C-LP-04B"
+        },
+        "170": {
+          "B": "D-LP-04"
+        },
+        "171": {
+          "B": "D-LP-04A"
+        },
+        "172": {
+          "B": "D-LP-04B"
+        },
+        "173": {
+          "B": "A-LP-03"
+        },
+        "174": {
+          "B": "A-LP-03A"
+        },
+        "175": {
+          "B": "A-LP-03B"
+        },
+        "176": {
+          "B": "B-LP-03"
+        },
+        "177": {
+          "B": "B-LP-03A"
+        },
+        "178": {
+          "B": "B-LP-03B"
+        },
+        "179": {
+          "B": "C-LP-03"
+        },
+        "180": {
+          "B": "C-LP-03A"
+        },
+        "181": {
+          "B": "C-LP-03B"
+        },
+        "182": {
+          "B": "D-LP-03"
+        },
+        "183": {
+          "B": "D-LP-03A"
+        },
+        "184": {
+          "B": "D-LP-03B"
+        },
+        "185": {
+          "B": "A-LP-02"
+        },
+        "186": {
+          "B": "A-LP-02A"
+        },
+        "187": {
+          "B": "A-LP-02B"
+        },
+        "188": {
+          "B": "B-LP-02"
+        },
+        "189": {
+          "B": "B-LP-02A"
+        },
+        "190": {
+          "B": "B-LP-02B"
+        },
+        "191": {
+          "B": "C-LP-02"
+        },
+        "192": {
+          "B": "C-LP-02A"
+        },
+        "193": {
+          "B": "C-LP-02B"
+        },
+        "194": {
+          "B": "D-LP-02"
+        },
+        "195": {
+          "B": "D-LP-02A"
+        },
+        "196": {
+          "B": "D-LP-02B"
+        },
+        "197": {
+          "B": "A-LP-01"
+        },
+        "198": {
+          "B": "A-LP-01A"
+        },
+        "199": {
+          "B": "A-LP-01B"
+        },
+        "200": {
+          "B": "A-LP-01C"
+        },
+        "201": {
+          "B": "B-LP-01"
+        },
+        "202": {
+          "B": "B-LP-01A"
+        },
+        "203": {
+          "B": "C-LP-01"
+        },
+        "204": {
+          "B": "C-LP-01A"
+        },
+        "205": {
+          "B": "D-LP-01"
+        },
+        "206": {
+          "B": "D-LP-01A"
+        },
+        "207": {
+          "B": "C-LP-B1"
+        },
+        "208": {
+          "B": "D-LP-B1"
+        },
+        "209": {
+          "B": "LP-B1-A"
+        },
+        "210": {
+          "B": "LP-B1-B"
+        },
+        "211": {
+          "B": "LE-B1-MDF"
+        },
+        "212": {
+          "B": "LE-B1-FO",
+          "H": "방재실"
+        },
+        "213": {
+          "B": "D-LE-B1"
+        },
+        "214": {
+          "B": "A-LE-B2",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "215": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817",
+          "H": "FD1방화샷다"
+        },
+        "216": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "217": {
+          "C": "E1",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상등"
+        },
+        "218": {
+          "C": "E2",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상등"
+        },
+        "219": {
+          "C": "E3",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817"
+        },
+        "220": {
+          "C": "E4",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817"
+        },
+        "221": {
+          "C": "E5",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817"
+        },
+        "222": {
+          "C": "E6",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817"
+        },
+        "223": {
+          "C": "E7",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817",
+          "H": "회전문전원"
+        },
+        "224": {
+          "C": "E8",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817"
+        },
+        "225": {
+          "C": "E9",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817",
+          "H": "유도등 (주차 B3,B4,B5)"
+        },
+        "226": {
+          "C": "E10",
+          "D": "ELB",
+          "E": "20",
+          "F": "20A",
+          "G": "40817",
+          "H": "조명제어"
+        },
+        "227": {
+          "B": "A-LP-B2",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "350A",
+          "G": "40817"
+        },
+        "228": {
+          "C": "LP-B2-A",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "175A",
+          "G": "40817"
+        },
+        "229": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "100A",
+          "G": "40817"
+        },
+        "230": {
+          "C": "LP-B2-C",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "100A",
+          "G": "40817"
+        },
+        "231": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "232": {
+          "C": "LP-B2-C-1",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "75A",
+          "G": "40817"
+        },
+        "233": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "234": {
+          "C": "L1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "235": {
+          "C": "L2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "236": {
+          "C": "L3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "237": {
+          "C": "L4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "화장실전등"
+        },
+        "238": {
+          "C": "L5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상등"
+        },
+        "239": {
+          "C": "L6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "캐노피전등"
+        },
+        "240": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "로비전등"
+        },
+        "241": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "현관전등"
+        },
+        "242": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "1관 광고판전원",
+          "I": "Spare ADD (2026.06.12)"
+        },
+        "243": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "244": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "245": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "246": {
+          "B": "B-LE-B2",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "247": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817",
+          "H": "FD1방화샷다"
+        },
+        "248": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "249": {
+          "C": "E1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상등"
+        },
+        "250": {
+          "C": "E2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상등"
+        },
+        "251": {
+          "C": "E3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "252": {
+          "C": "E4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "253": {
+          "C": "E5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "254": {
+          "C": "E6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "255": {
+          "C": "E7",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "256": {
+          "C": "E8",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "조명제어"
+        },
+        "257": {
+          "C": "E9",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "B3F램프 주차관제"
+        },
+        "258": {
+          "C": "E10",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "2관 유도등(주차장)"
+        },
+        "259": {
+          "B": "B-LP-B2",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "350A",
+          "G": "40817"
+        },
+        "260": {
+          "C": "LP-B2-D",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "175A",
+          "G": "40817",
+          "H": "한컴구내식당,교육관"
+        },
+        "261": {
+          "C": "LP-B2-B",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "125A",
+          "G": "40817",
+          "H": "카페"
+        },
+        "262": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "263": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "264": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "265": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "266": {
+          "C": "R1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "267": {
+          "C": "R2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "SPARE"
+        },
+        "268": {
+          "C": "H1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "화장실"
+        },
+        "269": {
+          "C": "H2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "화장실"
+        },
+        "270": {
+          "C": "L1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "271": {
+          "C": "L2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "272": {
+          "C": "L3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "벽쪽등"
+        },
+        "273": {
+          "C": "L4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "274": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "복도간접등"
+        },
+        "275": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "복도간접등"
+        },
+        "276": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상등"
+        },
+        "277": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "278": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "279": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "공조실등"
+        },
+        "280": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "스페이스애드"
+        },
+        "281": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "282": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "283": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "284": {
+          "B": "LP-B2-A"
+        },
+        "285": {
+          "B": "LP-B2-B"
+        },
+        "286": {
+          "B": "LP-B2-C"
+        },
+        "287": {
+          "B": "LP-B2-D"
+        },
+        "288": {
+          "B": "C-LE-B2",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "289": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817",
+          "H": "FD1방화샷다"
+        },
+        "290": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817",
+          "H": "FD2방화샷다"
+        },
+        "291": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "292": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "293": {
+          "C": "E1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상조명등"
+        },
+        "294": {
+          "C": "E2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상조명등(4관내부)"
+        },
+        "295": {
+          "C": "E3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "45240",
+          "H": "주차입구 (1F->B2F)벽면등 좌1 ○"
+        },
+        "296": {
+          "C": "E4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "주차입구 (1F->B2F)벽면등 좌2 X"
+        },
+        "297": {
+          "C": "E5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "주차입구 (1F->B2F)벽면등 우1 ○"
+        },
+        "298": {
+          "C": "E6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "주차입구 (1F->B2F)벽면등 우2 X"
+        },
+        "299": {
+          "C": "E7",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "300": {
+          "C": "E8",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "조명제어"
+        },
+        "301": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "302": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "olleh KT"
+        },
+        "303": {
+          "B": "C-LP-B2",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "250A",
+          "G": "40817"
+        },
+        "304": {
+          "C": "LP-B2-C",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "305": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "100A",
+          "G": "40817"
+        },
+        "306": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "307": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "308": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "309": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "310": {
+          "C": "L1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "311": {
+          "C": "L2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "312": {
+          "C": "L3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "313": {
+          "C": "L4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "314": {
+          "C": "L5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "복도간접등"
+        },
+        "315": {
+          "C": "L6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "화장실"
+        },
+        "316": {
+          "C": "R1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "317": {
+          "C": "R2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "318": {
+          "C": "R3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "319": {
+          "C": "H1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "화장실"
+        },
+        "320": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상등"
+        },
+        "321": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "조명제어CNI전원"
+        },
+        "322": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "323": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "324": {
+          "B": "D-LE-B2",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "325": {
+          "B": "D-LE-B2",
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817",
+          "H": "FD1방화샷다"
+        },
+        "326": {
+          "B": "D-LE-B2",
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "327": {
+          "B": "D-LE-B2",
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "328": {
+          "B": "D-LE-B2",
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "329": {
+          "B": "D-LE-B2",
+          "C": "E1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "비상조명등"
+        },
+        "330": {
+          "B": "D-LE-B2",
+          "C": "E2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "331": {
+          "B": "D-LE-B2",
+          "C": "E3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "332": {
+          "B": "D-LE-B2",
+          "C": "E4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "333": {
+          "B": "D-LE-B2",
+          "C": "E5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "334": {
+          "B": "D-LE-B2",
+          "C": "E6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "335": {
+          "B": "D-LE-B2",
+          "C": "E7",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "336": {
+          "B": "D-LE-B2",
+          "C": "E8",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "337": {
+          "B": "D-LE-B2",
+          "C": "E9",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "조명제어"
+        },
+        "338": {
+          "B": "D-LE-B2",
+          "C": "E10",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "유도등"
+        },
+        "339": {
+          "B": "D-LP-B2",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "350A",
+          "G": "40817"
+        },
+        "340": {
+          "C": "LP-B2-G",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "150A",
+          "G": "40817",
+          "H": "공조실옆"
+        },
+        "341": {
+          "C": "LP-SMP-2",
+          "F": "75A",
+          "H": "스노우멜팅"
+        },
+        "342": {
+          "C": "LP-B2-F",
+          "F": "100A",
+          "H": "스포츠센터앞"
+        },
+        "343": {
+          "C": "SPARE",
+          "F": "100A"
+        },
+        "344": {
+          "C": "SPARE",
+          "F": "50A",
+          "H": "동파방지"
+        },
+        "345": {
+          "C": "SPARE",
+          "F": "40A"
+        },
+        "346": {
+          "C": "L1"
+        },
+        "347": {
+          "C": "L2"
+        },
+        "348": {
+          "C": "L3"
+        },
+        "349": {
+          "C": "L4"
+        },
+        "350": {
+          "C": "L5",
+          "H": " 공조실"
+        },
+        "351": {
+          "C": "L6",
+          "H": "하역장"
+        },
+        "352": {
+          "C": "L7"
+        },
+        "353": {
+          "C": "L8",
+          "H": "남자화장실"
+        },
+        "354": {
+          "C": "SPARE",
+          "H": "전열"
+        },
+        "355": {
+          "C": "SPARE",
+          "H": "위메이드 미화휴게실 온돌판넬"
+        },
+        "356": {
+          "C": "SPARE",
+          "H": "위메이드 미화휴게실 온돌판넬"
+        },
+        "357": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "H": "위메이드 미화휴게실 일반전열"
+        },
+        "367": {
+          "B": "LP-B2-E"
+        },
+        "368": {
+          "B": "LP-B2-F"
+        },
+        "369": {
+          "B": "LP-B2-G"
+        },
+        "373": {
+          "B": "LP-PK-B3A"
+        },
+        "374": {
+          "B": "LE-PK-B3A"
+        },
+        "375": {
+          "B": "LP-PK-B3B"
+        },
+        "376": {
+          "B": "LE-PK-B3B"
+        },
+        "377": {
+          "B": "LP-PK-B4A"
+        },
+        "378": {
+          "B": "LE-PK-B4A"
+        },
+        "379": {
+          "B": "LP-ELEC-A",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "100A",
+          "G": "40817"
+        },
+        "380": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "381": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "382": {
+          "C": "01방화샷다",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "383": {
+          "C": "R1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "384": {
+          "C": "R2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "385": {
+          "C": "R3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "1,2관기계실 내부 전열콘센트"
+        },
+        "386": {
+          "C": "L1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "387": {
+          "C": "L2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "388": {
+          "C": "L3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "389": {
+          "C": "L4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "전기"
+        },
+        "390": {
+          "C": "L5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "전기"
+        },
+        "391": {
+          "C": "L6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "발전"
+        },
+        "392": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "옥내저장탱크 전등"
+        },
+        "393": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "난방기기전원"
+        },
+        "394": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "395": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "396": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "397": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "398": {
+          "B": "LP-PK-B4B"
+        },
+        "399": {
+          "B": "LE-PK-B4B"
+        },
+        "400": {
+          "B": "LP-ELEC-B",
+          "C": "MAIN",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "100A",
+          "G": "40817"
+        },
+        "401": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817"
+        },
+        "402": {
+          "C": "SPARE",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "40A",
+          "G": "40817",
+          "H": "미화대기실 A/C"
+        },
+        "403": {
+          "C": "01방화샷다",
+          "D": "MCCB",
+          "E": "3P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "404": {
+          "C": "R1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "405": {
+          "C": "R2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "세탁기용/충전기용"
+        },
+        "406": {
+          "C": "E1",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "407": {
+          "C": "E2",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "408": {
+          "C": "E3",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "409": {
+          "C": "E4",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "410": {
+          "C": "E5",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "전기실"
+        },
+        "411": {
+          "C": "E6",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "전기실"
+        },
+        "412": {
+          "C": "E7",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "I": "S/P"
+        },
+        "413": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "지역난방 열량계",
+          "I": "조작금지"
+        },
+        "414": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "미화전등"
+        },
+        "415": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "43137",
+          "H": "미화전열"
+        },
+        "416": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "미화전열"
+        },
+        "417": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817",
+          "H": "미화"
+        },
+        "418": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "419": {
+          "C": "SPARE",
+          "D": "ELB",
+          "E": "2P",
+          "F": "20A",
+          "G": "40817"
+        },
+        "420": {
+          "B": "LP-PK-B5A"
+        },
+        "421": {
+          "B": "LE-PK-B5A"
+        },
+        "422": {
+          "B": "LP-PK-B5B"
+        },
+        "423": {
+          "B": "LE-PK-B5B"
+        }
+      },
+      "merges": []
+    }
+  }
+}

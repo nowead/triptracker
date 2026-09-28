@@ -4,6 +4,7 @@ import androidx.room.Room
 import androidx.room.withTransaction
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
+import com.triptracker.app.data.local.MasterSeed
 import com.triptracker.app.data.local.BreakerEntity
 import com.triptracker.app.data.local.PeriodEntity
 import com.triptracker.app.data.local.TripDatabase
@@ -22,6 +23,27 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 class TripDatabaseDeviceTest {
+    @Test fun bundledMastersLoadWithoutHistoryAndReopeningPreservesUserEdit() = runBlocking {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val name = "master-seed-device.db"
+        context.deleteDatabase(name)
+        fun open() = Room.databaseBuilder(context, TripDatabase::class.java, name)
+            .addCallback(MasterSeed.callback { context.assets.open("initial_masters.json").bufferedReader().use { it.readText() } }).build()
+        var db = open()
+        try {
+            val panels = db.dao().observePanels().first()
+            assertEquals(164, panels.size)
+            assertEquals(171, db.dao().observeBreakers().first().size)
+            assertTrue(db.dao().observeTrips(null, null, "", "", null).first().isEmpty())
+            val panel = panels.first().copy(location = "기기에서 수정")
+            db.dao().updatePanel(panel)
+            db.close()
+            db = open()
+            assertEquals("기기에서 수정", db.dao().getPanel(panel.id)!!.location)
+            assertEquals(171, db.dao().observePeriods().first().size)
+        } finally { db.close(); context.deleteDatabase(name) }
+    }
+
     @Test fun twoSameDayTripsPersistAfterReopeningDatabase() = runBlocking {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         // Separate from the application's database; only this test file is removed.

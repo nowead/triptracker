@@ -41,9 +41,20 @@ class InputRulesTest {
 
     @Test fun floorsUsePhysicalOrderAndExcludeZero() {
         assertEquals(
-            listOf("B5", "B4", "B3", "B2", "B1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "PH"),
+            listOf("B5", "B4", "B3", "B2", "B1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "PH"),
             InputRules.floors,
         )
+    }
+
+    @Test fun upperFloorsAreAvailableForBuildingOneAndUnfilteredSearchOnly() {
+        for (building in listOf(null, 1)) {
+            assertTrue(InputRules.floorsFor(building).containsAll(listOf("12", "13")))
+        }
+        for (building in listOf(2, 3, 4)) {
+            assertFalse(InputRules.floorsFor(building).contains("12"))
+            assertFalse(InputRules.floorsFor(building).contains("13"))
+            assertTrue(InputRules.floorsFor(building).contains("PH"))
+        }
     }
 
     @Test fun todayUsesClockZoneInsteadOfUtcDate() {

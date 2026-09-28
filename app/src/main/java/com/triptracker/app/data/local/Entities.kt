@@ -7,10 +7,18 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 import java.util.UUID
 
+@Entity(tableName = "panel", indices = [Index(value = ["building", "floor", "number"], unique = true)])
+data class PanelEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val building: Int, val floor: String, val number: String,
+    val location: String = "", val note: String = "",
+)
+
 @Entity(
     tableName = "breaker",
-    indices = [Index(value = ["building", "floor", "panel_number", "breaker_name"], unique = true), Index("current_period_id")],
-    foreignKeys = [ForeignKey(entity = PeriodEntity::class, parentColumns = ["id"], childColumns = ["current_period_id"], onDelete = ForeignKey.RESTRICT)],
+    indices = [Index(value = ["building", "floor", "panel_number", "breaker_name"], unique = true), Index("current_period_id"), Index("panel_id")],
+    foreignKeys = [ForeignKey(entity = PeriodEntity::class, parentColumns = ["id"], childColumns = ["current_period_id"], onDelete = ForeignKey.RESTRICT),
+        ForeignKey(entity = PanelEntity::class, parentColumns = ["id"], childColumns = ["panel_id"], onDelete = ForeignKey.RESTRICT)],
 )
 data class BreakerEntity(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
@@ -18,6 +26,12 @@ data class BreakerEntity(
     @ColumnInfo(name = "panel_number") val panelNumber: String,
     @ColumnInfo(name = "breaker_name") val breakerName: String,
     @ColumnInfo(name = "current_period_id") val currentPeriodId: Long? = null,
+    @ColumnInfo(name = "panel_id") val panelId: Long? = null,
+    @ColumnInfo(defaultValue = "''") val kind: String = "",
+    val ports: Int? = null,
+    @ColumnInfo(name = "rated_amps", defaultValue = "''") val ratedAmps: String = "",
+    @ColumnInfo(defaultValue = "''") val load: String = "",
+    @ColumnInfo(defaultValue = "''") val note: String = "",
 )
 
 @Entity(
@@ -45,4 +59,11 @@ data class TripEntity(
     val location: String, val note: String,
     @ColumnInfo(name = "created_at") val createdAt: Long,
     @ColumnInfo(name = "creation_token") val creationToken: String = UUID.randomUUID().toString(),
+    @ColumnInfo(defaultValue = "''") val reason: String = "",
+)
+
+// Kept independently of imported rows so deleting a master never triggers re-import.
+@Entity(tableName = "initial_data_import")
+data class InitialDataImportEntity(
+    @PrimaryKey @ColumnInfo(name = "source_key") val sourceKey: String,
 )
